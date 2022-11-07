@@ -8,7 +8,3 @@ PR8 [Randomly sampled, except M1 (30) and PB1-F2 (13)]
 # M1 - 30 [All available in HPIDB]
 # PB1-F2 - 13 [All available in HPIDB]
 ************************************************************************************************************************
-2. test_V3.csv
-Negatome -- same samples as in test_V1
-HPIDB -- sorted according to HVPPI scores (Top 446 interactions)
-************************************************************************************************************************
