@@ -1,4 +1,16 @@
-﻿@article{RN4,
+﻿@misc{RN57,
+   author = {Abu-El-Haija, Sami and Perozzi, Bryan and Kapoor, Amol and Alipourfard, Nazanin and Lerman, Kristina and Harutyunyan, Hrayr and Steeg, Greg Ver and Galstyan, Aram},
+   title = {MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing},
+   publisher = {PMLR},
+   volume = {97},
+   pages = {21--29},
+   abstract = {Existing popular methods for semi-supervised learning with Graph Neural Networks (such as the Graph Convolutional Network) provably cannot learn a general class of neighborhood mixing relationships. To address this weakness, we propose a new model, MixHop, that can learn these relationships, including difference operators, by repeatedly mixing feature representations of neighbors at various distances. MixHop requires no additional memory or computational complexity, and outperforms on challenging baselines. In addition, we propose sparsity regularization that allows us to visualize how the network prioritizes neighborhood information across different graph datasets. Our analysis of the learned architectures reveals that neighborhood mixing varies per datasets.},
+   url = {https://proceedings.mlr.press/v97/abu-el-haija19a.html},
+   year = {2019},
+   type = {Conference Paper}
+}
+
+@article{RN4,
    author = {Alborzi, S. Z. and Ahmed Nacer, A. and Najjar, H. and Ritchie, D. W. and Devignes, M. D.},
    title = {PPIDomainMiner: Inferring domain-domain interactions from multiple sources of protein-protein interactions},
    journal = {PLoS Comput Biol},
@@ -29,48 +41,6 @@ Software},
    DOI = {10.1371/journal.pcbi.1008844},
    url = {https://www.ncbi.nlm.nih.gov/pubmed/34370723},
    year = {2021},
-   type = {Journal Article}
-}
-
-@article{RN17,
-   author = {Ammari, Mais G. and Gresham, Cathy R. and McCarthy, Fiona M. and Nanduri, Bindu},
-   title = {HPIDB 2.0: a curated database for host–pathogen interactions},
-   journal = {Database},
-   volume = {2016},
-   pages = {baw103},
-   abstract = {Identification and analysis of host–pathogen interactions (HPI) is essential to study infectious diseases. However, HPI data are sparse in existing molecular interaction databases, especially for agricultural host–pathogen systems. Therefore, resources that annotate, predict and display the HPI that underpin infectious diseases are critical for developing novel intervention strategies. HPIDB 2.0 ( http://www.agbase.msstate.edu/hpi/main.html ) is a resource for HPI data, and contains 45, 238 manually curated entries in the current release. Since the first description of the database in 2010, multiple enhancements to HPIDB data and interface services were made that are described here. Notably, HPIDB 2.0 now provides targeted biocuration of molecular interaction data. As a member of the International Molecular Exchange consortium, annotations provided by HPIDB 2.0 curators meet community standards to provide detailed contextual experimental information and facilitate data sharing. Moreover, HPIDB 2.0 provides access to rapidly available community annotations that capture minimum molecular interaction information to address immediate researcher needs for HPI network analysis. In addition to curation, HPIDB 2.0 integrates HPI from existing external sources and contains tools to infer additional HPI where annotated data are scarce. Compared to other interaction databases, our data collection approach ensures HPIDB 2.0 users access the most comprehensive HPI data from a wide range of pathogens and their hosts (594 pathogen and 70 host species, as of February 2016). Improvements also include enhanced search capacity, addition of Gene Ontology functional information, and implementation of network visualization. The changes made to HPIDB 2.0 content and interface ensure that users, especially agricultural researchers, are able to easily access and analyse high quality, comprehensive HPI data. All HPIDB 2.0 data are updated regularly, are publically available for direct download, and are disseminated to other molecular interaction resources. Database URL:http://www.agbase.msstate.edu/hpi/main.html},
-   ISSN = {1758-0463},
-   DOI = {10.1093/database/baw103},
-   url = {https://doi.org/10.1093/database/baw103},
-   year = {2016},
-   type = {Journal Article}
-}
-
-@article{RN27,
-   author = {Baranwal, Mayank and Magner, Abram and Saldinger, Jacob and Turali-Emre, Emine S. and Elvati, Paolo and Kozarekar, Shivani and VanEpps, J. Scott and Kotov, Nicholas A. and Violi, Angela and Hero, Alfred O.},
-   title = {Struct2Graph: a graph attention network for structure based predictions of protein–protein interactions},
-   journal = {BMC Bioinformatics},
-   volume = {23},
-   number = {1},
-   pages = {370},
-   abstract = {Development of new methods for analysis of protein–protein interactions (PPIs) at molecular and nanometer scales gives insights into intracellular signaling pathways and will improve understanding of protein functions, as well as other nanoscale structures of biological and abiological origins. Recent advances in computational tools, particularly the ones involving modern deep learning algorithms, have been shown to complement experimental approaches for describing and rationalizing PPIs. However, most of the existing works on PPI predictions use protein-sequence information, and thus have difficulties in accounting for the three-dimensional organization of the protein chains.},
-   ISSN = {1471-2105},
-   DOI = {10.1186/s12859-022-04910-9},
-   url = {https://doi.org/10.1186/s12859-022-04910-9},
-   year = {2022},
-   type = {Journal Article}
-}
-
-@article{RN39,
-   author = {Belkin, M. and Niyogi, P.},
-   title = {Laplacian Eigenmaps for Dimensionality Reduction and Data Representation},
-   journal = {Neural Computation},
-   volume = {15},
-   number = {6},
-   pages = {1373-1396},
-   ISSN = {0899-7667},
-   DOI = {10.1162/089976603321780317},
-   year = {2003},
    type = {Journal Article}
 }
 
@@ -116,24 +86,6 @@ Protein Conformation
    DOI = {10.1145/2806416.2806512},
    year = {2015},
    type = {Conference Paper}
-}
-
-@inbook{RN35,
-   author = {Cassisi, Carmelo and Montalto, Placido and Aliotta, Marco and Cannata, Andrea and Pulvirenti, Alfredo},
-   title = {Similarity Measures and Dimensionality Reduction Techniques for Time Series Data Mining},
-   ISBN = {978-953-51-0748-4},
-   DOI = {10.5772/49941},
-   year = {2012},
-   type = {Book Section}
-}
-
-@article{RN2,
-   author = {Chen, Yankai and Wu, Yaozu and Ma, Shicheng and King, Irwin},
-   title = {A Literature Review of Recent Graph Embedding Techniques for Biomedical Data},
-   journal = {ArXiv},
-   volume = {abs/2101.06569},
-   year = {2020},
-   type = {Journal Article}
 }
 
 @article{RN42,
@@ -240,6 +192,21 @@ protein-protein interactions},
    type = {Journal Article}
 }
 
+@article{RN56,
+   author = {Eid, Fatma-Elzahraa and ElHefnawi, Mahmoud and Heath, Lenwood S.},
+   title = {DeNovo: virus-host sequence-based protein–protein interaction prediction},
+   journal = {Bioinformatics},
+   volume = {32},
+   number = {8},
+   pages = {1144-1150},
+   abstract = {Motivation Can we predict protein–protein interactions (PPIs) of a novel virus with its host? Three major problems arise: the lack of known PPIs for that virus to learn from, the cost of learning about its proteins and the sequence dissimilarity among viral families that makes most methods inapplicable or inefficient. We develop DeNovo, a sequence-based negative sampling and machine learning framework that learns from PPIs of different viruses to predict for a novel one, exploiting the shared host proteins. We tested DeNovo on PPIs from different domains to assess generalization.Results: By solving the challenge of generating less noisy negative interactions, DeNovo achieved accuracy up to 81 and 86% when predicting PPIs of viral proteins that have no and distant sequence similarity to the ones used for training, receptively. This result is comparable to the best achieved in single virus-host and intra-species PPI prediction cases. Thus, we can now predict PPIs for virtually any virus infecting human. DeNovo generalizes well; it achieved near optimal accuracy when tested on bacteria–human interactions.Availability and implementation: Code, data and additional supplementary materials needed to reproduce this study are available at: https://bioinformatics.cs.vt.edu/~alzahraa/denovo.Contact:alzahraa@vt.eduSupplementary information: Supplementary data are available at Bioinformatics online.},
+   ISSN = {1367-4803},
+   DOI = {10.1093/bioinformatics/btv737},
+   url = {https://doi.org/10.1093/bioinformatics/btv737},
+   year = {2015},
+   type = {Journal Article}
+}
+
 @article{RN38,
    author = {Gao, Z. and Fu, G. and Ouyang, C. and Tsutsui, S. and Liu, X. and Yang, J. and Gessner, C. and Foote, B. and Wild, D. and Ding, Y. and Yu, Q.},
    title = {edge2vec: Representation learning using edge semantics for biomedical knowledge discovery},
@@ -329,13 +296,6 @@ Node embeddings},
    type = {Journal Article}
 }
 
-@article{RN31,
-   author = {Hamilton, William and Ying, Rex and Leskovec, Jure},
-   title = {Representation Learning on Graphs: Methods and Applications},
-   year = {2017},
-   type = {Journal Article}
-}
-
 @article{RN25,
    author = {Hashemifar, S. and Neyshabur, B. and Khan, A. A. and Xu, J.},
    title = {Predicting protein-protein interactions through sequence-based deep learning},
@@ -398,66 +358,12 @@ Sci Rep. 2020 Dec 3;10(1):21092. doi: 10.1038/s41598-020-77766-9.},
    type = {Journal Article}
 }
 
-@inbook{RN13,
-   author = {Kakkola, Laura and Ikonen, Niina and Julkunen, Ilkka},
-   title = {Influenza A Viruses (Orthomyxoviridae)},
-   booktitle = {Encyclopedia of Virology (Fourth Edition)},
-   editor = {Bamford, Dennis H. and Zuckerman, Mark},
-   publisher = {Academic Press},
-   address = {Oxford},
-   pages = {551-560},
-   abstract = {Influenza A viruses (IAV) cause annual epidemics and occasional pandemics in the human population. IAVs are subtyped according to the viral envelope glycoproteins hemagglutinin (HA) and neuraminidase (NA) proteins. IAVs, seasonal H1N1 and H3N2 as well as some other subtypes cause respiratory tract infections that can occasionally be severe leading to pneumonia or acute respiratory distress syndrome (ARDS) in humans. IAV infections can be prevented with vaccines or treated with antiviral drugs. However, the vaccine composition needs to be updated every year due to antigenic variation of IAVs.},
-   keywords = {Antigenic variation
-Antivirals
-ARDS
-Influenza A virus
-Innate immune response
-Pandemic
-Pneumonia
-Vaccine},
-   ISBN = {978-0-12-814516-6},
-   DOI = {https://doi.org/10.1016/B978-0-12-814515-9.00046-1},
-   url = {https://www.sciencedirect.com/science/article/pii/B9780128145159000461},
-   year = {2021},
-   type = {Book Section}
-}
-
-@article{RN36,
-   author = {Keogh, Eamonn and Ratanamahatana, Chotirat Ann},
-   title = {Exact indexing of dynamic time warping},
-   journal = {Knowledge and Information Systems},
-   volume = {7},
-   number = {3},
-   pages = {358-386},
-   abstract = {The problem of indexing time series has attracted much interest. Most algorithms used to index time series utilize the Euclidean distance or some variation thereof. However, it has been forcefully shown that the Euclidean distance is a very brittle distance measure. Dynamic time warping (DTW) is a much more robust distance measure for time series, allowing similar shapes to match even if they are out of phase in the time axis. Because of this flexibility, DTW is widely used in science, medicine, industry and finance. Unfortunately, however, DTW does not obey the triangular inequality and thus has resisted attempts at exact indexing. Instead, many researchers have introduced approximate indexing techniques or abandoned the idea of indexing and concentrated on speeding up sequential searches. In this work, we introduce a novel technique for the exact indexing of DTW. We prove that our method guarantees no false dismissals and we demonstrate its vast superiority over all competing approaches in the largest and most comprehensive set of time series indexing experiments ever undertaken.},
-   ISSN = {0219-3116},
-   DOI = {10.1007/s10115-004-0154-9},
-   url = {https://doi.org/10.1007/s10115-004-0154-9},
-   year = {2005},
-   type = {Journal Article}
-}
-
 @article{RN46,
    author = {Kipf, Thomas N. and Welling, Max},
    title = {Variational Graph Auto-Encoders},
    DOI = {10.48550/ARXIV.1611.07308},
    url = {https://arxiv.org/abs/1611.07308},
    year = {2016},
-   type = {Journal Article}
-}
-
-@article{RN16,
-   author = {Kumar, Ranjit and Nanduri, Bindu},
-   title = {HPIDB - a unified resource for host-pathogen interactions},
-   journal = {BMC Bioinformatics},
-   volume = {11},
-   number = {6},
-   pages = {S16},
-   abstract = {Protein-protein interactions (PPIs) play a crucial role in initiating infection in a host-pathogen system. Identification of these PPIs is important for understanding the underlying biological mechanism of infection and identifying putative drug targets. Database resources for studying host-pathogen systems are scarce and are either host specific or dedicated to specific pathogens.},
-   ISSN = {1471-2105},
-   DOI = {10.1186/1471-2105-11-S6-S16},
-   url = {https://doi.org/10.1186/1471-2105-11-S6-S16},
-   year = {2010},
    type = {Journal Article}
 }
 
@@ -498,16 +404,6 @@ Protein-protein interactions},
    DOI = {10.1186/s12859-020-03896-6},
    url = {https://www.ncbi.nlm.nih.gov/pubmed/33323120},
    year = {2020},
-   type = {Journal Article}
-}
-
-@article{RN41,
-   author = {Liu, Renming and Hirn, Matthew J. and Krishnan, Arjun},
-   title = {Accurately Modeling Biased Random Walks on Weighted Graphs Using Node2vec+},
-   journal = {CoRR},
-   volume = {abs/2109.08031},
-   url = {https://arxiv.org/abs/2109.08031},
-   year = {2021},
    type = {Journal Article}
 }
 
@@ -572,15 +468,6 @@ Node clustering},
    type = {Journal Article}
 }
 
-@article{RN21,
-   author = {Perozzi, Bryan and Al-Rfou, Rami and Skiena, Steven},
-   title = {DeepWalk: Online Learning of Social Representations},
-   journal = {Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
-   DOI = {10.1145/2623330.2623732},
-   year = {2014},
-   type = {Journal Article}
-}
-
 @misc{RN20,
    author = {Ribeiro, Leonardo F. R. and Saverese, Pedro H. P. and Figueiredo, Daniel R.},
    title = {struc2vec: Learning Node Representations from Structural Identity},
@@ -588,6 +475,33 @@ Node clustering},
    DOI = {10.1145/3097983.3098061},
    year = {2017},
    type = {Conference Paper}
+}
+
+@article{RN51,
+   author = {Sarkar, D. and Saha, S.},
+   title = {Machine-learning techniques for the prediction of protein-protein interactions},
+   journal = {J Biosci},
+   volume = {44},
+   number = {4},
+   note = {0973-7138
+Sarkar, Debasree
+Saha, Sudipto
+Journal Article
+India
+2019/09/11
+J Biosci. 2019 Sep;44(4):104.},
+   abstract = {Protein-protein interactions (PPIs) are important for the study of protein functions and pathways involved in different biological processes, as well as for understanding the cause and progression of diseases. Several high-throughput experimental techniques have been employed for the identification of PPIs in a few model organisms, but still, there is a huge gap in identifying all possible binary PPIs in an organism. Therefore, PPI prediction using machine-learning algorithms has been used in conjunction with experimental methods for discovery of novel protein interactions. The two most popular supervised machine-learning techniques used in the prediction of PPIs are support vector machines and random forest classifiers. Bayesian-probabilistic inference has also been used but mainly for the scoring of high-throughput PPI dataset confidence measures. Recently, deep-learning algorithms have been used for sequence-based prediction of PPIs. Several clustering methods such as hierarchical and k-means are useful as unsupervised machine-learning algorithms for the prediction of interacting protein pairs without explicit data labelling. In summary, machine-learning techniques have been widely used for the prediction of PPIs thus allowing experimental researchers to study cellular PPI networks.},
+   keywords = {Algorithms
+Bayes Theorem
+Computational Biology
+Humans
+*Machine Learning
+Protein Interaction Maps/*genetics
+Proteins/*genetics
+*Support Vector Machine},
+   ISSN = {0250-5991},
+   year = {2019},
+   type = {Journal Article}
 }
 
 @article{RN44,
@@ -609,18 +523,15 @@ Evolutionary computation},
    type = {Journal Article}
 }
 
-@article{RN47,
-   author = {Singh, Rohit and Devkota, Kapil and Sledzieski, Samuel and Berger, Bonnie and Cowen, Lenore},
-   title = {Topsy-Turvy: integrating a global view into sequence-based PPI prediction},
-   journal = {Bioinformatics},
-   volume = {38},
-   number = {Supplement_1},
-   pages = {i264-i272},
-   abstract = {Computational methods to predict protein–protein interaction (PPI) typically segregate into sequence-based ‘bottom-up’ methods that infer properties from the characteristics of the individual protein sequences, or global ‘top-down’ methods that infer properties from the pattern of already known PPIs in the species of interest. However, a way to incorporate top-down insights into sequence-based bottom-up PPI prediction methods has been elusive. We thus introduce Topsy-Turvy, a method that newly synthesizes both views in a sequence-based, multi-scale, deep-learning model for PPI prediction. While Topsy-Turvy makes predictions using only sequence data, during the training phase it takes a transfer-learning approach by incorporating patterns from both global and molecular-level views of protein interaction. In a cross-species context, we show it achieves state-of-the-art performance, offering the ability to perform genome-scale, interpretable PPI prediction for non-model organisms with no existing experimental PPI data. In species with available experimental PPI data, we further present a Topsy-Turvy hybrid (TT-Hybrid) model which integrates Topsy-Turvy with a purely network-based model for link prediction that provides information about species-specific network rewiring. TT-Hybrid makes accurate predictions for both well- and sparsely-characterized proteins, outperforming both its constituent components as well as other state-of-the-art PPI prediction methods. Furthermore, running Topsy-Turvy and TT-Hybrid screens is feasible for whole genomes, and thus these methods scale to settings where other methods (e.g. AlphaFold-Multimer) might be infeasible. The generalizability, accuracy and genome-level scalability of Topsy-Turvy and TT-Hybrid unlocks a more comprehensive map of protein interaction and organization in both model and non-model organisms.https://topsyturvy.csail.mit.edu.Supplementary data are available at Bioinformatics online.},
-   ISSN = {1367-4803},
-   DOI = {10.1093/bioinformatics/btac258},
-   url = {https://doi.org/10.1093/bioinformatics/btac258},
-   year = {2022},
+@article{RN50,
+   author = {Song, Wenzhuo and Wang, Shengsheng and Yang, Bo and Lu, You and Zhao, Xuehua and Liu, Xueyan},
+   title = {Learning node and edge embeddings for signed networks},
+   journal = {Neurocomputing},
+   volume = {319},
+   pages = {42-54},
+   ISSN = {09252312},
+   DOI = {10.1016/j.neucom.2018.08.072},
+   year = {2018},
    type = {Journal Article}
 }
 
@@ -826,13 +737,5 @@ Semantics
    url = {https://www.ncbi.nlm.nih.gov/pubmed/31584634},
    year = {2020},
    type = {Journal Article}
-}
-
-@inproceedings{RN45,
-   author = {Zell, Andreas},
-   title = {Simulation Neuronaler Netze [Simulation of Neural Networks] (in German)},
-   pages = {73},
-   ISBN = {ISBN 3-89319-554-8},
-   type = {Conference Proceedings}
 }
 
