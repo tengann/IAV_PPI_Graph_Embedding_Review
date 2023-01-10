@@ -1,18 +1,13 @@
-﻿@article{RN49,
-   author = {Yu, Bin and Chen, Cheng and Wang, Xiaolin and Yu, Zhaomin and Ma, Anjun and Liu, Bingqiang},
-   title = {Prediction of protein–protein interactions based on elastic net and deep forest},
-   journal = {Expert Systems with Applications},
-   volume = {176},
-   pages = {114876},
-   abstract = {Prediction of protein–protein interactions (PPIs) helps to grasp molecular roots of disease. However, web-lab experiments to predict PPIs are limited and costly. Using machine-learning-based frameworks can not only automatically identify PPIs, but also provide new ideas for drug research and development from a promising alternative. We present a novel deep-forest-based method for PPIs prediction. Firstly, pseudo amino acid composition (PAAC), autocorrelation descriptor (Auto), multivariate mutual information (MMI), composition-transition-distribution (CTD), amino acid composition position-specific scoring matrix (AAC-PSSM), and dipeptide composition PSSM (DPC-PSSM) are adopted to extract and construct the pattern of PPIs. Secondly, elastic net is utilized to optimize the initial feature vectors and boost the predictive performance. Finally, we ensemble XGBoost, random forest, and extremely randomized trees to construct deep forest model via cascade architecture for PPIs prediction (GcForest-PPI). Benchmark experiments reveal that the proposed approach outperforms other state-of-the-art predictors on Saccharomyces cerevisiae and Helicobacter pylori. We also apply GcForest-PPI on independent test sets, CD9-core network, crossover network, and cancer-specific network. The evaluation shows that GcForest-PPI can boost the prediction accuracy, complement experiments and improve drug discovery.},
-   keywords = {Protein-protein interactions
-Multi-information fusion
-Elastic net
-Deep forest},
-   ISSN = {0957-4174},
-   DOI = {https://doi.org/10.1016/j.eswa.2021.114876},
-   url = {https://www.sciencedirect.com/science/article/pii/S0957417421003171},
-   year = {2021},
+﻿@article{RN39,
+   author = {Belkin, M. and Niyogi, P.},
+   title = {Laplacian Eigenmaps for Dimensionality Reduction and Data Representation},
+   journal = {Neural Computation},
+   volume = {15},
+   number = {6},
+   pages = {1373-1396},
+   ISSN = {0899-7667},
+   DOI = {10.1162/089976603321780317},
+   year = {2003},
    type = {Journal Article}
 }
 
