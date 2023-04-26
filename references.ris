@@ -1,0 +1,2453 @@
+TY  - MISC
+AU  - Abu-El-Haija, Sami
+AU  - Perozzi, Bryan
+AU  - Kapoor, Amol
+AU  - Alipourfard, Nazanin
+AU  - Lerman, Kristina
+AU  - Harutyunyan, Hrayr
+AU  - Steeg, Greg Ver
+AU  - Galstyan, Aram
+TI  - MixHop: Higher-Order Graph Convolutional Architectures via Sparsified
+      Neighborhood Mixing
+VL  - 97
+SP  - 21-29
+PY  - 2019
+DA  - 2019
+PB  - PMLR
+AB  - Existing popular methods for semi-supervised learning with Graph Neural
+      Networks (such as the Graph Convolutional Network) provably cannot learn a
+      general class of neighborhood mixing relationships. To address this
+      weakness, we propose a new model, MixHop, that can learn these
+      relationships, including difference operators, by repeatedly mixing
+      feature representations of neighbors at various distances. MixHop requires
+      no additional memory or computational complexity, and outperforms on
+      challenging baselines. In addition, we propose sparsity regularization
+      that allows us to visualize how the network prioritizes neighborhood
+      information across different graph datasets. Our analysis of the learned
+      architectures reveals that neighborhood mixing varies per datasets.
+UR  - https://proceedings.mlr.press/v97/abu-el-haija19a.html
+ER  - 
+
+TY  - JOUR
+AU  - Alborzi, S Z
+AU  - Ahmed Nacer, A
+AU  - Najjar, H
+AU  - Ritchie, D W
+AU  - Devignes, M D
+TI  - PPIDomainMiner: Inferring domain-domain interactions from multiple sources
+      of protein-protein interactions
+T2  - PLoS Comput Biol
+VL  - 17
+IS  - 8
+SP  - e1008844
+PY  - 2021
+DA  - 2021
+AB  - Many biological processes are mediated by protein-protein interactions
+      (PPIs). Because protein domains are the building blocks of proteins, PPIs
+      likely rely on domain-domain interactions (DDIs). Several attempts exist
+      to infer DDIs from PPI networks but the produced datasets are
+      heterogeneous and sometimes not accessible, while the PPI interactome data
+      keeps growing. We describe a new computational approach called "PPIDM"
+      (Protein-Protein Interactions Domain Miner) for inferring DDIs using
+      multiple sources of PPIs. The approach is an extension of our previously
+      described "CODAC" (Computational Discovery of Direct Associations using
+      Common neighbors) method for inferring new edges in a tripartite graph.
+      The PPIDM method has been applied to seven widely used PPI resources,
+      using as "Gold-Standard" a set of DDIs extracted from 3D structural
+      databases. Overall, PPIDM has produced a dataset of 84,552 non-redundant
+      DDIs. Statistical significance (p-value) is calculated for each source of
+      PPI and used to classify the PPIDM DDIs in Gold (9,175 DDIs), Silver
+      (24,934 DDIs) and Bronze (50,443 DDIs) categories. Dataset comparison
+      reveals that PPIDM has inferred from the 2017 releases of PPI sources
+      about 46% of the DDIs present in the 2020 release of the 3did database,
+      not counting the DDIs present in the Gold-Standard. The PPIDM dataset
+      contains 10,229 DDIs that are consistent with more than 13,300 PPIs
+      extracted from the IMEx database, and nearly 23,300 DDIs (27.5%) that are
+      consistent with more than 214,000 human PPIs extracted from the STRING
+      database. Examples of newly inferred DDIs covering more than 10 PPIs in
+      the IMEx database are provided. Further exploitation of the PPIDM DDI
+      reservoir includes the inventory of possible partners of a protein of
+      interest and characterization of protein interactions at the domain level
+      in combination with other methods. The result is publicly available at
+      http://ppidm.loria.fr/.
+SN  - 1553-7358
+DO  - 10.1371/journal.pcbi.1008844
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/34370723
+UR  - http://dx.doi.org/10.1371/journal.pcbi.1008844
+KW  - Algorithms Computational Biology Data Mining/statistics & numerical data Databases, Protein/statistics & numerical data Humans *Protein Interaction Domains and Motifs Protein Interaction Mapping/*statistics & numerical data *Protein Interaction Maps Software
+N1  - Alborzi, Seyed Ziaeddin Ahmed Nacer, Amina Najjar, Hiba Ritchie, David W
+      Devignes, Marie-Dominique eng Research Support, Non-U.S. Gov't 2021/08/10
+      PLoS Comput Biol. 2021 Aug 9;17(8):e1008844. doi:
+      10.1371/journal.pcbi.1008844. eCollection 2021 Aug.
+ER  - 
+
+TY  - JOUR
+AU  - Ammari, Mais G
+AU  - Gresham, Cathy R
+AU  - McCarthy, Fiona M
+AU  - Nanduri, Bindu
+TI  - HPIDB 2.0: a curated database for host–pathogen interactions
+T2  - Database
+VL  - 2016
+SP  - baw103
+PY  - 2016
+DA  - 2016
+AB  - Identification and analysis of host–pathogen interactions (HPI) is
+      essential to study infectious diseases. However, HPI data are sparse in
+      existing molecular interaction databases, especially for agricultural
+      host–pathogen systems. Therefore, resources that annotate, predict and
+      display the HPI that underpin infectious diseases are critical for
+      developing novel intervention strategies. HPIDB 2.0 (
+      http://www.agbase.msstate.edu/hpi/main.html ) is a resource for HPI data,
+      and contains 45, 238 manually curated entries in the current release.
+      Since the first description of the database in 2010, multiple enhancements
+      to HPIDB data and interface services were made that are described here.
+      Notably, HPIDB 2.0 now provides targeted biocuration of molecular
+      interaction data. As a member of the International Molecular Exchange
+      consortium, annotations provided by HPIDB 2.0 curators meet community
+      standards to provide detailed contextual experimental information and
+      facilitate data sharing. Moreover, HPIDB 2.0 provides access to rapidly
+      available community annotations that capture minimum molecular interaction
+      information to address immediate researcher needs for HPI network
+      analysis. In addition to curation, HPIDB 2.0 integrates HPI from existing
+      external sources and contains tools to infer additional HPI where
+      annotated data are scarce. Compared to other interaction databases, our
+      data collection approach ensures HPIDB 2.0 users access the most
+      comprehensive HPI data from a wide range of pathogens and their hosts (594
+      pathogen and 70 host species, as of February 2016). Improvements also
+      include enhanced search capacity, addition of Gene Ontology functional
+      information, and implementation of network visualization. The changes made
+      to HPIDB 2.0 content and interface ensure that users, especially
+      agricultural researchers, are able to easily access and analyse high
+      quality, comprehensive HPI data. All HPIDB 2.0 data are updated regularly,
+      are publically available for direct download, and are disseminated to
+      other molecular interaction resources. Database
+      URL:http://www.agbase.msstate.edu/hpi/main.html
+SN  - 1758-0463
+DO  - 10.1093/database/baw103
+UR  - https://doi.org/10.1093/database/baw103
+UR  - http://dx.doi.org/10.1093/database/baw103
+ER  - 
+
+TY  - JOUR
+AU  - Baranwal, Mayank
+AU  - Magner, Abram
+AU  - Saldinger, Jacob
+AU  - Turali-Emre, Emine S
+AU  - Elvati, Paolo
+AU  - Kozarekar, Shivani
+AU  - VanEpps, J Scott
+AU  - Kotov, Nicholas A
+AU  - Violi, Angela
+AU  - Hero, Alfred O
+TI  - Struct2Graph: a graph attention network for structure based predictions of
+      protein–protein interactions
+T2  - BMC Bioinformatics
+VL  - 23
+IS  - 1
+SP  - 370
+PY  - 2022
+DA  - 2022
+AB  - Development of new methods for analysis of protein–protein interactions
+      (PPIs) at molecular and nanometer scales gives insights into intracellular
+      signaling pathways and will improve understanding of protein functions, as
+      well as other nanoscale structures of biological and abiological origins.
+      Recent advances in computational tools, particularly the ones involving
+      modern deep learning algorithms, have been shown to complement
+      experimental approaches for describing and rationalizing PPIs. However,
+      most of the existing works on PPI predictions use protein-sequence
+      information, and thus have difficulties in accounting for the
+      three-dimensional organization of the protein chains.
+SN  - 1471-2105
+DO  - 10.1186/s12859-022-04910-9
+UR  - https://doi.org/10.1186/s12859-022-04910-9
+UR  - http://dx.doi.org/10.1186/s12859-022-04910-9
+ER  - 
+
+TY  - JOUR
+AU  - Barnickel, T
+AU  - Weston, J
+AU  - Collobert, R
+AU  - Mewes, H W
+AU  - Stümpflen, V
+TI  - Large scale application of neural network based semantic role labeling for
+      automated relation extraction from biomedical texts
+T2  - PLoS One
+VL  - 4
+IS  - 7
+SP  - e6393
+PY  - 2009
+DA  - 2009
+AB  - To reduce the increasing amount of time spent on literature search in the
+      life sciences, several methods for automated knowledge extraction have
+      been developed. Co-occurrence based approaches can deal with large text
+      corpora like MEDLINE in an acceptable time but are not able to extract any
+      specific type of semantic relation. Semantic relation extraction methods
+      based on syntax trees, on the other hand, are computationally expensive
+      and the interpretation of the generated trees is difficult. Several
+      natural language processing (NLP) approaches for the biomedical domain
+      exist focusing specifically on the detection of a limited set of relation
+      types. For systems biology, generic approaches for the detection of a
+      multitude of relation types which in addition are able to process large
+      text corpora are needed but the number of systems meeting both
+      requirements is very limited. We introduce the use of SENNA ("Semantic
+      Extraction using a Neural Network Architecture"), a fast and accurate
+      neural network based Semantic Role Labeling (SRL) program, for the large
+      scale extraction of semantic relations from the biomedical literature. A
+      comparison of processing times of SENNA and other SRL systems or
+      syntactical parsers used in the biomedical domain revealed that SENNA is
+      the fastest Proposition Bank (PropBank) conforming SRL program currently
+      available. 89 million biomedical sentences were tagged with SENNA on a 100
+      node cluster within three days. The accuracy of the presented relation
+      extraction approach was evaluated on two test sets of annotated sentences
+      resulting in precision/recall values of 0.71/0.43. We show that the
+      accuracy as well as processing speed of the proposed semantic relation
+      extraction approach is sufficient for its large scale application on
+      biomedical text. The proposed approach is highly generalizable regarding
+      the supported relation types and appears to be especially suited for
+      general-purpose, broad-scale text mining systems. The presented approach
+      bridges the gap between fast, co-occurrence-based approaches lacking
+      semantic relations and highly specialized and computationally demanding
+      NLP approaches.
+SN  - 1932-6203
+DO  - 10.1371/journal.pone.0006393
+UR  - http://dx.doi.org/10.1371/journal.pone.0006393
+KW  - *Abstracting and Indexing Algorithms *Neural Networks, Computer
+N1  - 1932-6203 Barnickel, Thorsten Weston, Jason Collobert, Ronan Mewes,
+      Hans-Werner Stümpflen, Volker Journal Article Research Support, Non-U.S.
+      Gov't United States 2009/07/29 PLoS One. 2009 Jul 28;4(7):e6393. doi:
+      10.1371/journal.pone.0006393.
+ER  - 
+
+TY  - JOUR
+AU  - Belkin, M
+AU  - Niyogi, P
+TI  - Laplacian Eigenmaps for Dimensionality Reduction and Data Representation
+T2  - Neural Computation
+VL  - 15
+IS  - 6
+SP  - 1373-1396
+PY  - 2003
+DA  - 2003
+SN  - 0899-7667
+DO  - 10.1162/089976603321780317
+UR  - http://dx.doi.org/10.1162/089976603321780317
+ER  - 
+
+TY  - JOUR
+AU  - Blohm, P
+AU  - Frishman, G
+AU  - Smialowski, P
+AU  - Goebels, F
+AU  - Wachinger, B
+AU  - Ruepp, A
+AU  - Frishman, D
+TI  - Negatome 2.0: a database of non-interacting proteins derived by literature
+      mining, manual annotation and protein structure analysis
+T2  - Nucleic Acids Res
+VL  - 42
+IS  - Database issue
+SP  - D396-400
+PY  - 2014
+DA  - 2014
+AB  - Knowledge about non-interacting proteins (NIPs) is important for training
+      the algorithms to predict protein-protein interactions (PPIs) and for
+      assessing the false positive rates of PPI detection efforts. We present
+      the second version of Negatome, a database of proteins and protein domains
+      that are unlikely to engage in physical interactions (available online at
+      http://mips.helmholtz-muenchen.de/proj/ppi/negatome). Negatome is derived
+      by manual curation of literature and by analyzing three-dimensional
+      structures of protein complexes. The main methodological innovation in
+      Negatome 2.0 is the utilization of an advanced text mining procedure to
+      guide the manual annotation process. Potential non-interactions were
+      identified by a modified version of Excerbt, a text mining tool based on
+      semantic sentence analysis. Manual verification shows that nearly a half
+      of the text mining results with the highest confidence values correspond
+      to NIP pairs. Compared to the first version the contents of the database
+      have grown by over 300%.
+SN  - 1362-4962
+DO  - 10.1093/nar/gkt1079
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/24214996
+UR  - http://dx.doi.org/10.1093/nar/gkt1079
+KW  - Data Mining *Databases, Protein Internet Molecular Sequence Annotation Protein Conformation *Protein Interaction Domains and Motifs *Protein Interaction Mapping
+N1  - Blohm, Philipp Frishman, Goar Smialowski, Pawel Goebels, Florian
+      Wachinger, Benedikt Ruepp, Andreas Frishman, Dmitrij eng Research Support,
+      Non-U.S. Gov't England 2013/11/12 Nucleic Acids Res. 2014 Jan;42(Database
+      issue):D396-400. doi: 10.1093/nar/gkt1079. Epub 2013 Nov 8.
+ER  - 
+
+TY  - MISC
+AU  - Cao, Shaosheng
+AU  - Lu, Wei
+AU  - Xu, Qiongkai
+TI  - GraRep: Learning Graph Representations with Global Structural Information
+SP  - 891-900
+PY  - 2015
+DA  - 2015
+DO  - 10.1145/2806416.2806512
+UR  - http://dx.doi.org/10.1145/2806416.2806512
+ER  - 
+
+TY  - CHAP
+AU  - Cassisi, Carmelo
+AU  - Montalto, Placido
+AU  - Aliotta, Marco
+AU  - Cannata, Andrea
+AU  - Pulvirenti, Alfredo
+TI  - Similarity Measures and Dimensionality Reduction Techniques for Time
+      Series Data Mining
+PY  - 2012
+DA  - 2012
+SN  - 9789535107484
+DO  - 10.5772/49941
+UR  - http://dx.doi.org/10.5772/49941
+ER  - 
+
+TY  - MISC
+AU  - Cavallari, Sandro
+AU  - Zheng, Vincent W
+AU  - Cai, Hongyun
+AU  - Chang, Kevin Chen-Chuan
+AU  - Cambria, Erik
+TI  - Learning Community Embedding with Community Detection and Node Embedding
+      on Graphs
+SP  - 377-386
+PY  - 2017
+DA  - 2017
+DO  - 10.1145/3132847.3132925
+UR  - http://dx.doi.org/10.1145/3132847.3132925
+ER  - 
+
+TY  - JOUR
+AU  - Chen, X
+AU  - Qiu, J D
+AU  - Shi, S P
+AU  - Suo, S B
+AU  - Huang, S Y
+AU  - Liang, R P
+TI  - Incorporating key position and amino acid residue features to identify
+      general and species-specific Ubiquitin conjugation sites
+T2  - Bioinformatics
+VL  - 29
+IS  - 13
+SP  - 1614-1622
+PY  - 2013
+DA  - 2013
+AB  - MOTIVATION: Systematic dissection of the ubiquitylation proteome is
+      emerging as an appealing but challenging research topic because of the
+      significant roles ubiquitylation play not only in protein degradation but
+      also in many other cellular functions. High-throughput experimental
+      studies using mass spectrometry have identified many ubiquitylation sites,
+      primarily from eukaryotes. However, the vast majority of ubiquitylation
+      sites remain undiscovered, even in well-studied systems. Because mass
+      spectrometry-based experimental approaches for identifying ubiquitylation
+      events are costly, time-consuming and biased toward abundant proteins and
+      proteotypic peptides, in silico prediction of ubiquitylation sites is a
+      potentially useful alternative strategy for whole proteome annotation.
+      Because of various limitations, current ubiquitylation site prediction
+      tools were not well designed to comprehensively assess proteomes. RESULTS:
+      We present a novel tool known as UbiProber, specifically designed for
+      large-scale predictions of both general and species-specific
+      ubiquitylation sites. We collected proteomics data for ubiquitylation from
+      multiple species from several reliable sources and used them to train
+      prediction models by a comprehensive machine-learning approach that
+      integrates the information from key positions and key amino acid residues.
+      Cross-validation tests reveal that UbiProber achieves some improvement
+      over existing tools in predicting species-specific ubiquitylation sites.
+      Moreover, independent tests show that UbiProber improves the areas under
+      receiver operating characteristic curves by 15% by using the Combined
+      model. AVAILABILITY: The UbiProber server is freely available on the web
+      at http://bioinfo.ncu.edu.cn/UbiProber.aspx. The software system of
+      UbiProber can be downloaded at the same site. SUPPLEMENTARY INFORMATION:
+      Supplementary data are available at Bioinformatics online.
+SN  - 1367-4803
+DO  - 10.1093/bioinformatics/btt196
+UR  - http://dx.doi.org/10.1093/bioinformatics/btt196
+KW  - Amino Acids/*chemistry Animals Artificial Intelligence Humans Mice Proteome/metabolism Proteomics/methods Sequence Analysis, Protein/*methods *Software Species Specificity Ubiquitin/metabolism Ubiquitinated Proteins/*chemistry *Ubiquitination
+N1  - 1367-4811 Chen, Xiang Qiu, Jian-Ding Shi, Shao-Ping Suo, Sheng-Bao Huang,
+      Shu-Yun Liang, Ru-Ping Journal Article Research Support, Non-U.S. Gov't
+      England 2013/04/30 Bioinformatics. 2013 Jul 1;29(13):1614-22. doi:
+      10.1093/bioinformatics/btt196. Epub 2013 Apr 26.
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Yankai
+AU  - Wu, Yaozu
+AU  - Ma, Shicheng
+AU  - King, Irwin
+TI  - A Literature Review of Recent Graph Embedding Techniques for Biomedical
+      Data
+T2  - ArXiv
+VL  - abs/2101.06569
+PY  - 2020
+DA  - 2020
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Z
+AU  - Zhao, P
+AU  - Li, F
+AU  - Leier, A
+AU  - Marquez-Lago, T T
+AU  - Wang, Y
+AU  - Webb, G I
+AU  - Smith, A I
+AU  - Daly, R J
+AU  - Chou, K C
+AU  - Song, J
+TI  - iFeature: a Python package and web server for features extraction and
+      selection from protein and peptide sequences
+T2  - Bioinformatics
+VL  - 34
+IS  - 14
+SP  - 2499-2502
+PY  - 2018
+DA  - 2018
+AB  - Summary: Structural and physiochemical descriptors extracted from sequence
+      data have been widely used to represent sequences and predict structural,
+      functional, expression and interaction profiles of proteins and peptides
+      as well as DNAs/RNAs. Here, we present iFeature, a versatile Python-based
+      toolkit for generating various numerical feature representation schemes
+      for both protein and peptide sequences. iFeature is capable of calculating
+      and extracting a comprehensive spectrum of 18 major sequence encoding
+      schemes that encompass 53 different types of feature descriptors. It also
+      allows users to extract specific amino acid properties from the AAindex
+      database. Furthermore, iFeature integrates 12 different types of commonly
+      used feature clustering, selection and dimensionality reduction
+      algorithms, greatly facilitating training, analysis and benchmarking of
+      machine-learning models. The functionality of iFeature is made freely
+      available via an online web server and a stand-alone toolkit. Availability
+      and implementation: http://iFeature.erc.monash.edu/;
+      https://github.com/Superzchen/iFeature/. Supplementary information:
+      Supplementary data are available at Bioinformatics online.
+SN  - 1367-4811
+DO  - 10.1093/bioinformatics/bty140
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/29528364
+UR  - http://dx.doi.org/10.1093/bioinformatics/bty140
+KW  - Machine Learning *Molecular Sequence Annotation Peptides/chemistry/*metabolism/physiology Protein Conformation Proteins/chemistry/*metabolism/physiology Sequence Analysis, Protein/*methods *Software
+N1  - Chen, Zhen Zhao, Pei Li, Fuyi Leier, Andre Marquez-Lago, Tatiana T Wang,
+      Yanan Webb, Geoffrey I Smith, A Ian Daly, Roger J Chou, Kuo-Chen Song,
+      Jiangning eng R01 AI111965/AI/NIAID NIH HHS/ Research Support, N.I.H.,
+      Extramural Research Support, Non-U.S. Gov't England 2018/03/13
+      Bioinformatics. 2018 Jul 15;34(14):2499-2502. doi:
+      10.1093/bioinformatics/bty140.
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Z
+AU  - Zhou, Y
+AU  - Song, J
+AU  - Zhang, Z
+TI  - hCKSAAP_UbSite: improved prediction of human ubiquitination sites by
+      exploiting amino acid pattern and properties
+T2  - Biochim Biophys Acta
+VL  - 1834
+IS  - 8
+SP  - 1461-1467
+PY  - 2013
+DA  - 2013
+AB  - As one of the most common post-translational modifications, ubiquitination
+      regulates the quantity and function of a variety of proteins. Experimental
+      and clinical investigations have also suggested the crucial roles of
+      ubiquitination in several human diseases. The complicated sequence context
+      of human ubiquitination sites revealed by proteomic studies highlights the
+      need of developing effective computational strategies to predict human
+      ubiquitination sites. Here we report the establishment of a novel
+      human-specific ubiquitination site predictor through the integration of
+      multiple complementary classifiers. Firstly, a Support Vector Machine
+      (SVM) classier was constructed based on the composition of k-spaced amino
+      acid pairs (CKSAAP) encoding, which has been utilized in our previous
+      yeast ubiquitination site predictor. To further exploit the pattern and
+      properties of the ubiquitination sites and their flanking residues, three
+      additional SVM classifiers were constructed using the binary amino acid
+      encoding, the AAindex physicochemical property encoding and the protein
+      aggregation propensity encoding, respectively. Through an integration that
+      relied on logistic regression, the resulting predictor termed
+      hCKSAAP_UbSite achieved an area under ROC curve (AUC) of 0.770 in 5-fold
+      cross-validation test on a class-balanced training dataset. When tested on
+      a class-balanced independent testing dataset that contains 3419
+      ubiquitination sites, hCKSAAP_UbSite has also achieved a robust
+      performance with an AUC of 0.757. Specifically, it has consistently
+      performed better than the predictor using the CKSAAP encoding alone and
+      two other publicly available predictors which are not human-specific.
+      Given its promising performance in our large-scale datasets,
+      hCKSAAP_UbSite has been made publicly available at our server
+      (http://protein.cau.edu.cn/cksaap_ubsite/).
+SN  - 0006-3002
+DO  - 10.1016/j.bbapap.2013.04.006
+UR  - http://dx.doi.org/10.1016/j.bbapap.2013.04.006
+KW  - Amino Acids/*metabolism Binding Sites *Computational Biology Humans Protein Processing, Post-Translational Proteins/*chemistry/*metabolism *Support Vector Machine Ubiquitination/*physiology
+N1  - Chen, Zhen Zhou, Yuan Song, Jiangning Zhang, Ziding Journal Article
+      Research Support, Non-U.S. Gov't Netherlands 2013/04/23 Biochim Biophys
+      Acta. 2013 Aug;1834(8):1461-7. doi: 10.1016/j.bbapap.2013.04.006. Epub
+      2013 Apr 19.
+ER  - 
+
+TY  - JOUR
+AU  - Chou, K C
+TI  - Prediction of protein subcellular locations by incorporating
+      quasi-sequence-order effect
+T2  - Biochem Biophys Res Commun
+VL  - 278
+IS  - 2
+SP  - 477-483
+PY  - 2000
+DA  - 2000
+AB  - How to incorporate the sequence order effect is a key and logical step for
+      improving the prediction quality of protein subcellular location, but
+      meanwhile it is a very difficult problem as well. This is because the
+      number of possible sequence order patterns in proteins is extremely large,
+      which has posed a formidable barrier to construct an effective training
+      data set for statistical treatment based on the current knowledge. That is
+      why most of the existing prediction algorithms are operated based on the
+      amino-acid composition alone. In this paper, based on the physicochemical
+      distance between amino acids, a set of sequence-order-coupling numbers was
+      introduced to reflect the sequence order effect, or in a rigorous term,
+      the quasi-sequence-order effect. Furthermore, the covariant discriminant
+      algorithm by Chou and Elrod (Protein Eng. 12, 107-118, 1999) developed
+      recently was augmented to allow the prediction performed by using the
+      input of both the sequence-order-coupling numbers and amino-acid
+      composition. A remarkable improvement was observed in the prediction
+      quality using the augmented covariant discriminant algorithm. The approach
+      described here represents one promising step forward in the efforts of
+      incorporating sequence order effect in protein subcellular location
+      prediction. It is anticipated that the current approach may also have a
+      series of impacts on the prediction of other protein features by
+      statistical approaches.
+SN  - 0006-291X
+DO  - 10.1006/bbrc.2000.3815
+UR  - http://dx.doi.org/10.1006/bbrc.2000.3815
+KW  - *Algorithms Proteins/*metabolism Subcellular Fractions/*metabolism
+N1  - Chou, K C Journal Article United States 2000/12/01 Biochem Biophys Res
+      Commun. 2000 Nov 19;278(2):477-83. doi: 10.1006/bbrc.2000.3815.
+ER  - 
+
+TY  - JOUR
+AU  - Chou, K C
+TI  - Prediction of protein cellular attributes using pseudo-amino acid
+      composition
+T2  - Proteins
+VL  - 43
+IS  - 3
+SP  - 246-255
+PY  - 2001
+DA  - 2001
+AB  - The cellular attributes of a protein, such as which compartment of a cell
+      it belongs to and how it is associated with the lipid bilayer of an
+      organelle, are closely correlated with its biological functions. The
+      success of human genome project and the rapid increase in the number of
+      protein sequences entering into data bank have stimulated a challenging
+      frontier: How to develop a fast and accurate method to predict the
+      cellular attributes of a protein based on its amino acid sequence? The
+      existing algorithms for predicting these attributes were all based on the
+      amino acid composition in which no sequence order effect was taken into
+      account. To improve the prediction quality, it is necessary to incorporate
+      such an effect. However, the number of possible patterns for protein
+      sequences is extremely large, which has posed a formidable difficulty for
+      realizing this goal. To deal with such a difficulty, the pseudo-amino acid
+      composition is introduced. It is a combination of a set of discrete
+      sequence correlation factors and the 20 components of the conventional
+      amino acid composition. A remarkable improvement in prediction quality has
+      been observed by using the pseudo-amino acid composition. The success
+      rates of prediction thus obtained are so far the highest for the same
+      classification schemes and same data sets. It has not escaped from our
+      notice that the concept of pseudo-amino acid composition as well as its
+      mathematical framework and biochemical implication may also have a notable
+      impact on improving the prediction quality of other protein features.
+SN  - 0887-3585
+DO  - 10.1002/prot.1035
+UR  - http://dx.doi.org/10.1002/prot.1035
+KW  - Algorithms *Amino Acids Humans Membrane Proteins/*metabolism Proteins/*metabolism Subcellular Fractions
+N1  - Chou, K C Journal Article United States 2001/04/05 Proteins. 2001 May
+      15;43(3):246-55. doi: 10.1002/prot.1035.
+ER  - 
+
+TY  - JOUR
+AU  - Chou, K C
+TI  - Using amphiphilic pseudo amino acid composition to predict enzyme
+      subfamily classes
+T2  - Bioinformatics
+VL  - 21
+IS  - 1
+SP  - 10-19
+PY  - 2005
+DA  - 2005
+AB  - MOTIVATION: With protein sequences entering into databanks at an explosive
+      pace, the early determination of the family or subfamily class for a newly
+      found enzyme molecule becomes important because this is directly related
+      to the detailed information about which specific target it acts on, as
+      well as to its catalytic process and biological function. Unfortunately,
+      it is both time-consuming and costly to do so by experiments alone. In a
+      previous study, the covariant-discriminant algorithm was introduced to
+      identify the 16 subfamily classes of oxidoreductases. Although the results
+      were quite encouraging, the entire prediction process was based on the
+      amino acid composition alone without including any sequence-order
+      information. Therefore, it is worthy of further investigation. RESULTS: To
+      incorporate the sequence-order effects into the predictor, the
+      'amphiphilic pseudo amino acid composition' is introduced to represent the
+      statistical sample of a protein. The novel representation contains 20 +
+      2lambda discrete numbers: the first 20 numbers are the components of the
+      conventional amino acid composition; the next 2lambda numbers are a set of
+      correlation factors that reflect different hydrophobicity and
+      hydrophilicity distribution patterns along a protein chain. Based on such
+      a concept and formulation scheme, a new predictor is developed. It is
+      shown by the self-consistency test, jackknife test and independent dataset
+      tests that the success rates obtained by the new predictor are all
+      significantly higher than those by the previous predictors. The
+      significant enhancement in success rates also implies that the
+      distribution of hydrophobicity and hydrophilicity of the amino acid
+      residues along a protein chain plays a very important role to its
+      structure and function.
+SN  - 1367-4803
+DO  - 10.1093/bioinformatics/bth466
+UR  - http://dx.doi.org/10.1093/bioinformatics/bth466
+KW  - *Algorithms Amino Acid Sequence Artificial Intelligence Computer Simulation Enzymes/*chemistry/*classification Hydrophobic and Hydrophilic Interactions *Models, Chemical Models, Statistical Molecular Sequence Data Proteins/*chemistry/*classification Sequence Alignment/*methods Sequence Analysis, Protein/*methods Sequence Homology, Amino Acid
+N1  - Chou, Kuo-Chen Comparative Study Evaluation Study Journal Article England
+      2004/08/17 Bioinformatics. 2005 Jan 1;21(1):10-9. doi:
+      10.1093/bioinformatics/bth466. Epub 2004 Aug 12.
+ER  - 
+
+TY  - JOUR
+AU  - Chou, K C
+AU  - Cai, Y D
+TI  - Prediction of protein subcellular locations by GO-FunD-PseAA predictor
+T2  - Biochem Biophys Res Commun
+VL  - 320
+IS  - 4
+SP  - 1236-1239
+PY  - 2004
+DA  - 2004
+AB  - The localization of a protein in a cell is closely correlated with its
+      biological function. With the explosion of protein sequences entering into
+      DataBanks, it is highly desired to develop an automated method that can
+      fast identify their subcellular location. This will expedite the
+      annotation process, providing timely useful information for both basic
+      research and industrial application. In view of this, a powerful predictor
+      has been developed by hybridizing the gene ontology approach [Nat. Genet.
+      25 (2000) 25], functional domain composition approach [J. Biol. Chem. 277
+      (2002) 45765], and the pseudo-amino acid composition approach [Proteins
+      Struct. Funct. Genet. 43 (2001) 246; Erratum: ibid. 44 (2001) 60]. As a
+      showcase, the recently constructed dataset [Bioinformatics 19 (2003) 1656]
+      was used for demonstration. The dataset contains 7589 proteins classified
+      into 12 subcellular locations: chloroplast, cytoplasmic, cytoskeleton,
+      endoplasmic reticulum, extracellular, Golgi apparatus, lysosomal,
+      mitochondrial, nuclear, peroxisomal, plasma membrane, and vacuolar. The
+      overall success rate of prediction obtained by the jackknife
+      cross-validation was 92%. This is so far the highest success rate
+      performed on this dataset by following an objective and rigorous
+      cross-validation procedure.
+SN  - 0006-291X
+DO  - 10.1016/j.bbrc.2004.06.073
+UR  - http://dx.doi.org/10.1016/j.bbrc.2004.06.073
+KW  - *Algorithms Amino Acid Sequence Databases, Protein Gene Expression Profiling/*methods Information Storage and Retrieval/methods Molecular Sequence Data Proteins/*chemistry/classification/*metabolism Sequence Alignment/*methods Sequence Analysis, Protein/*methods Subcellular Fractions/chemistry/*metabolism Tissue Distribution
+N1  - Chou, Kuo-Chen Cai, Yu-Dong Comparative Study Evaluation Study Journal
+      Article Validation Study United States 2004/07/14 Biochem Biophys Res
+      Commun. 2004 Aug 6;320(4):1236-9. doi: 10.1016/j.bbrc.2004.06.073.
+ER  - 
+
+TY  - JOUR
+AU  - Cook, H V
+AU  - Doncheva, N T
+AU  - Szklarczyk, D
+AU  - von Mering, C
+AU  - Jensen, L J
+TI  - Viruses.STRING: A Virus-Host Protein-Protein Interaction Database
+T2  - Viruses
+VL  - 10
+IS  - 10
+PY  - 2018
+DA  - 2018
+AB  - As viruses continue to pose risks to global health, having a better
+      understanding of virus(-)host protein(-)protein interactions aids in the
+      development of treatments and vaccines. Here, we introduce Viruses.STRING,
+      a protein(-)protein interaction database specifically catering to
+      virus(-)virus and virus(-)host interactions. This database combines
+      evidence from experimental and text-mining channels to provide combined
+      probabilities for interactions between viral and host proteins. The
+      database contains 177,425 interactions between 239 viruses and 319 hosts.
+      The database is publicly available at viruses.string-db.org, and the
+      interaction data can also be accessed through the latest version of the
+      Cytoscape STRING app.
+SN  - 1999-4915
+DO  - 10.3390/v10100519
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/30249048
+UR  - http://dx.doi.org/10.3390/v10100519
+KW  - Animals *Databases, Protein Gene Ontology *Host-Pathogen Interactions Humans Probability Protein Binding *Protein Interaction Mapping Protein Interaction Maps Proteins/*metabolism Software Design Viruses/*metabolism PPI database protein-protein interactions virus bioinformatics virus-host interactions
+N1  - Cook, Helen Victoria Doncheva, Nadezhda Tsankova Szklarczyk, Damian von
+      Mering, Christian Jensen, Lars Juhl eng NNF14CC0001/Novo
+      Nordisk/International Research Support, Non-U.S. Gov't Switzerland
+      2018/09/27 Viruses. 2018 Sep 23;10(10):519. doi: 10.3390/v10100519.
+ER  - 
+
+TY  - JOUR
+AU  - Coordinators, Ncbi Resource
+TI  - Database resources of the National Center for Biotechnology Information
+T2  - Nucleic Acids Res
+VL  - 44
+IS  - D1
+SP  - D7-19
+PY  - 2016
+DA  - 2016
+AB  - The National Center for Biotechnology Information (NCBI) provides a large
+      suite of online resources for biological information and data, including
+      the GenBank(®) nucleic acid sequence database and the PubMed database of
+      citations and abstracts for published life science journals. Additional
+      NCBI resources focus on literature (PubMed Central (PMC), Bookshelf and
+      PubReader), health (ClinVar, dbGaP, dbMHC, the Genetic Testing Registry,
+      HIV-1/Human Protein Interaction Database and MedGen), genomes (BioProject,
+      Assembly, Genome, BioSample, dbSNP, dbVar, Epigenomics, the Map Viewer,
+      Nucleotide, Probe, RefSeq, Sequence Read Archive, the Taxonomy Browser and
+      the Trace Archive), genes (Gene, Gene Expression Omnibus (GEO),
+      HomoloGene, PopSet and UniGene), proteins (Protein, the Conserved Domain
+      Database (CDD), COBALT, Conserved Domain Architecture Retrieval Tool
+      (CDART), the Molecular Modeling Database (MMDB) and Protein Clusters) and
+      chemicals (Biosystems and the PubChem suite of small molecule databases).
+      The Entrez system provides search and retrieval operations for most of
+      these databases. Augmenting many of the web applications are custom
+      implementations of the BLAST program optimized to search specialized
+      datasets. All of these resources can be accessed through the NCBI home
+      page at www.ncbi.nlm.nih.gov.
+SN  - 0305-1048
+DO  - 10.1093/nar/gkv1290
+UR  - http://dx.doi.org/10.1093/nar/gkv1290
+KW  - Bacteria/genetics/isolation & purification *Databases as Topic Databases, Chemical Databases, Genetic Databases, Protein Genes Genetics, Medical Genomics Humans Internet National Library of Medicine (U.S.) PubMed Sequence Alignment Sequence Analysis, DNA Software United States
+N1  - 1362-4962 NCBI Resource Coordinators ImNIH/Intramural NIH HHS/United
+      States Journal Article Research Support, N.I.H., Intramural England
+      2015/11/29 Nucleic Acids Res. 2016 Jan 4;44(D1):D7-19. doi:
+      10.1093/nar/gkv1290. Epub 2015 Nov 28.
+ER  - 
+
+TY  - JOUR
+AU  - Du, X
+AU  - Sun, S
+AU  - Hu, C
+AU  - Yao, Y
+AU  - Yan, Y
+AU  - Zhang, Y
+TI  - DeepPPI: Boosting Prediction of Protein-Protein Interactions with Deep
+      Neural Networks
+T2  - J Chem Inf Model
+VL  - 57
+IS  - 6
+SP  - 1499-1510
+PY  - 2017
+DA  - 2017
+AB  - The complex language of eukaryotic gene expression remains incompletely
+      understood. Despite the importance suggested by many proteins variants
+      statistically associated with human disease, nearly all such variants have
+      unknown mechanisms, for example, protein-protein interactions (PPIs). In
+      this study, we address this challenge using a recent machine learning
+      advance-deep neural networks (DNNs). We aim at improving the performance
+      of PPIs prediction and propose a method called DeepPPI (Deep neural
+      networks for Protein-Protein Interactions prediction), which employs deep
+      neural networks to learn effectively the representations of proteins from
+      common protein descriptors. The experimental results indicate that DeepPPI
+      achieves superior performance on the test data set with an Accuracy of
+      92.50%, Precision of 94.38%, Recall of 90.56%, Specificity of 94.49%,
+      Matthews Correlation Coefficient of 85.08% and Area Under the Curve of
+      97.43%, respectively. Extensive experiments show that DeepPPI can learn
+      useful features of proteins pairs by a layer-wise abstraction, and thus
+      achieves better prediction performance than existing methods. The source
+      code of our approach can be available via
+      http://ailab.ahu.edu.cn:8087/DeepPPI/index.html .
+SN  - 1549-960X
+DO  - 10.1021/acs.jcim.7b00028
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/28514151
+UR  - http://dx.doi.org/10.1021/acs.jcim.7b00028
+KW  - *Neural Networks, Computer Protein Interaction Mapping/*methods Saccharomyces cerevisiae/metabolism
+N1  - Du, Xiuquan Sun, Shiwei Hu, Changlin Yao, Yu Yan, Yuanting Zhang, Yanping
+      eng 2017/05/18 J Chem Inf Model. 2017 Jun 26;57(6):1499-1510. doi:
+      10.1021/acs.jcim.7b00028. Epub 2017 May 26.
+ER  - 
+
+TY  - JOUR
+AU  - Du, Xiuquan
+AU  - Sun, Shiwei
+AU  - Hu, Changlin
+AU  - Yao, Yu
+AU  - Yan, Yuanting
+AU  - Zhang, Yanping
+TI  - DeepPPI: Boosting Prediction of Protein–Protein Interactions with Deep
+      Neural Networks
+T2  - Journal of Chemical Information and Modeling
+VL  - 57
+IS  - 6
+SP  - 1499-1510
+PY  - 2017
+DA  - 2017
+SN  - 1549-9596
+DO  - 10.1021/acs.jcim.7b00028
+UR  - https://doi.org/10.1021/acs.jcim.7b00028
+UR  - http://dx.doi.org/10.1021/acs.jcim.7b00028
+N1  - doi: 10.1021/acs.jcim.7b00028
+ER  - 
+
+TY  - JOUR
+AU  - Dubchak, I
+AU  - Muchnik, I
+AU  - Holbrook, S R
+AU  - Kim, S H
+TI  - Prediction of protein folding class using global description of amino acid
+      sequence
+T2  - Proc Natl Acad Sci U S A
+VL  - 92
+IS  - 19
+SP  - 8700-8704
+PY  - 1995
+DA  - 1995
+AB  - We present a method for predicting protein folding class based on global
+      protein chain description and a voting process. Selection of the best
+      descriptors was achieved by a computer-simulated neural network trained on
+      a data base consisting of 83 folding classes. Protein-chain descriptors
+      include overall composition, transition, and distribution of amino acid
+      attributes, such as relative hydrophobicity, predicted secondary
+      structure, and predicted solvent exposure. Cross-validation testing was
+      performed on 15 of the largest classes. The test shows that proteins were
+      assigned to the correct class (correct positive prediction) with an
+      average accuracy of 71.7%, whereas the inverse prediction of proteins as
+      not belonging to a particular class (correct negative prediction) was
+      90-95% accurate. When tested on 254 structures used in this study, the top
+      two predictions contained the correct class in 91% of the cases.
+SN  - 0027-8424
+DO  - 10.1073/pnas.92.19.8700
+UR  - http://dx.doi.org/10.1073/pnas.92.19.8700
+KW  - *Amino Acid Sequence Amino Acids/chemistry *Computer Simulation Databases, Factual *Models, Chemical Neural Networks, Computer *Protein Folding Protein Structure, Secondary Proteins/chemistry/classification Reproducibility of Results Solvents
+N1  - 1091-6490 Dubchak, I Muchnik, I Holbrook, S R Kim, S H Comparative Study
+      Journal Article Research Support, U.S. Gov't, Non-P.H.S. United States
+      1995/09/12 Proc Natl Acad Sci U S A. 1995 Sep 12;92(19):8700-4. doi:
+      10.1073/pnas.92.19.8700.
+ER  - 
+
+TY  - JOUR
+AU  - Dubchak, I
+AU  - Muchnik, I
+AU  - Mayor, C
+AU  - Dralyuk, I
+AU  - Kim, S H
+TI  - Recognition of a protein fold in the context of the Structural
+      Classification of Proteins (SCOP) classification
+T2  - Proteins
+VL  - 35
+IS  - 4
+SP  - 401-407
+PY  - 1999
+DA  - 1999
+AB  - A computational method has been developed for the assignment of a protein
+      sequence to a folding class in the Structural Classification of Proteins
+      (SCOP). This method uses global descriptors of a primary protein sequence
+      in terms of the physical, chemical, and structural properties of the
+      constituent amino acids. Neural networks are utilized to combine these
+      descriptors in a way to discriminate members of a given fold from members
+      of all other folds. An extensive testing of the method has been performed
+      to evaluate its prediction accuracy. The method is applicable for the fold
+      assignment of any protein sequence with or without significant sequence
+      homology to known proteins. A WWW page for predicting protein folds is
+      available at URL http://cbcg.lbl.gov/.
+SN  - 0887-3585
+KW  - Amino Acids/chemistry Databases, Factual *Protein Folding Proteins/*chemistry
+N1  - Dubchak, I Muchnik, I Mayor, C Dralyuk, I Kim, S H Journal Article
+      Research Support, U.S. Gov't, Non-P.H.S. United States 1999/06/26
+      Proteins. 1999 Jun 1;35(4):401-7.
+ER  - 
+
+TY  - JOUR
+AU  - Dunham, B
+AU  - Ganapathiraju, M K
+TI  - Benchmark Evaluation of Protein-Protein Interaction Prediction Algorithms
+T2  - Molecules
+VL  - 27
+IS  - 1
+PY  - 2021
+DA  - 2021
+AB  - Protein-protein interactions (PPIs) perform various functions and regulate
+      processes throughout cells. Knowledge of the full network of PPIs is vital
+      to biomedical research, but most of the PPIs are still unknown. As it is
+      infeasible to discover all of them experimentally due to technical and
+      resource limitations, computational prediction of PPIs is essential and
+      accurately assessing the performance of algorithms is required before
+      further application or translation. However, many published methods
+      compose their evaluation datasets incorrectly, using a higher proportion
+      of positive class data than occuring naturally, leading to exaggerated
+      performance. We re-implemented various published algorithms and evaluated
+      them on datasets with realistic data compositions and found that their
+      performance is overstated in original publications; with several methods
+      outperformed by our control models built on 'illogical' and random number
+      features. We conclude that these methods are influenced by an
+      over-characterization of some proteins in the literature and due to
+      scale-free nature of PPI network and that they fail when tested on all
+      possible protein pairs. Additionally, we found that sequence-only-based
+      algorithms performed worse than those that employ functional and
+      expression features. We present a benchmark evaluation of many published
+      algorithms for PPI prediction. The source code of our implementations and
+      the benchmark datasets created here are made available in open source.
+SN  - 1420-3049
+DO  - 10.3390/molecules27010041
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/35011283
+UR  - http://dx.doi.org/10.3390/molecules27010041
+KW  - *Algorithms Computational Biology/*methods Databases, Genetic Humans Protein Interaction Mapping/*methods ROC Curve Reproducibility of Results *Software computational prediction evaluation interactome protein-protein interactions
+N1  - Dunham, Brandan Ganapathiraju, Madhavi K eng T15 LM007059/LM/NLM NIH HHS/
+      T15LM007059/ National Library of Medicine Switzerland 2022/01/12
+      Molecules. 2021 Dec 22;27(1). pii: molecules27010041. doi:
+      10.3390/molecules27010041.
+ER  - 
+
+TY  - JOUR
+AU  - Eid, Fatma-Elzahraa
+AU  - ElHefnawi, Mahmoud
+AU  - Heath, Lenwood S
+TI  - DeNovo: virus-host sequence-based protein–protein interaction prediction
+T2  - Bioinformatics
+VL  - 32
+IS  - 8
+SP  - 1144-1150
+PY  - 2015
+DA  - 2015
+AB  - Motivation Can we predict protein–protein interactions (PPIs) of a novel
+      virus with its host? Three major problems arise: the lack of known PPIs
+      for that virus to learn from, the cost of learning about its proteins and
+      the sequence dissimilarity among viral families that makes most methods
+      inapplicable or inefficient. We develop DeNovo, a sequence-based negative
+      sampling and machine learning framework that learns from PPIs of different
+      viruses to predict for a novel one, exploiting the shared host proteins.
+      We tested DeNovo on PPIs from different domains to assess
+      generalization.Results: By solving the challenge of generating less noisy
+      negative interactions, DeNovo achieved accuracy up to 81 and 86% when
+      predicting PPIs of viral proteins that have no and distant sequence
+      similarity to the ones used for training, receptively. This result is
+      comparable to the best achieved in single virus-host and intra-species PPI
+      prediction cases. Thus, we can now predict PPIs for virtually any virus
+      infecting human. DeNovo generalizes well; it achieved near optimal
+      accuracy when tested on bacteria–human interactions.Availability and
+      implementation: Code, data and additional supplementary materials needed
+      to reproduce this study are available at:
+      https://bioinformatics.cs.vt.edu/
+      alzahraa/denovo.Contact:alzahraa@vt.eduSupplementary information:
+      Supplementary data are available at Bioinformatics online.
+SN  - 1367-4803
+DO  - 10.1093/bioinformatics/btv737
+UR  - https://doi.org/10.1093/bioinformatics/btv737
+UR  - http://dx.doi.org/10.1093/bioinformatics/btv737
+ER  - 
+
+TY  - JOUR
+AU  - Galkin, Fedor
+AU  - Mamoshina, Polina
+AU  - Aliper, Aleksandr
+AU  - de Magalhaes, Joao Pedro
+AU  - Gladyshev, Vadim
+AU  - Zhavoronkov, Alexander
+TI  - Biohorology and biomarkers of aging: Current state-of-the-art, challenges
+      and opportunities
+T2  - Ageing Research Reviews
+VL  - 60
+SP  - 101050
+PY  - 2020
+DA  - 2020
+DO  - 10.1016/j.arr.2020.101050
+UR  - http://dx.doi.org/10.1016/j.arr.2020.101050
+ER  - 
+
+TY  - JOUR
+AU  - Gao, Z
+AU  - Fu, G
+AU  - Ouyang, C
+AU  - Tsutsui, S
+AU  - Liu, X
+AU  - Yang, J
+AU  - Gessner, C
+AU  - Foote, B
+AU  - Wild, D
+AU  - Ding, Y
+AU  - Yu, Q
+TI  - edge2vec: Representation learning using edge semantics for biomedical
+      knowledge discovery
+T2  - BMC Bioinformatics
+VL  - 20
+IS  - 1
+SP  - 306
+PY  - 2019
+DA  - 2019
+AB  - BACKGROUND: Representation learning provides new and powerful graph
+      analytical approaches and tools for the highly valued data science
+      challenge of mining knowledge graphs. Since previous graph analytical
+      methods have mostly focused on homogeneous graphs, an important current
+      challenge is extending this methodology for richly heterogeneous graphs
+      and knowledge domains. The biomedical sciences are such a domain,
+      reflecting the complexity of biology, with entities such as genes,
+      proteins, drugs, diseases, and phenotypes, and relationships such as gene
+      co-expression, biochemical regulation, and biomolecular inhibition or
+      activation. Therefore, the semantics of edges and nodes are critical for
+      representation learning and knowledge discovery in real world biomedical
+      problems. RESULTS: In this paper, we propose the edge2vec model, which
+      represents graphs considering edge semantics. An edge-type transition
+      matrix is trained by an Expectation-Maximization approach, and a
+      stochastic gradient descent model is employed to learn node embedding on a
+      heterogeneous graph via the trained transition matrix. edge2vec is
+      validated on three biomedical domain tasks: biomedical entity
+      classification, compound-gene bioactivity prediction, and biomedical
+      information retrieval. Results show that by considering edge-types into
+      node embedding learning in heterogeneous graphs, edge2vec significantly
+      outperforms state-of-the-art models on all three tasks. CONCLUSIONS: We
+      propose this method for its added value relative to existing graph
+      analytical methodology, and in the real world context of biomedical
+      knowledge discovery applicability.
+SN  - 1471-2105
+DO  - 10.1186/s12859-019-2914-2
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/31238875
+UR  - http://dx.doi.org/10.1186/s12859-019-2914-2
+KW  - Algorithms Biomedical Research Humans Informatics/*methods *Knowledge *Learning Neural Networks, Computer Semantics Applied machine learning Biomedical knowledge discovery Data science Edge semantics Graph embedding Heterogeneous network Knowledge graph Linked data Network science Node embedding Representation learning Semantic web Systems biology
+N1  - Gao, Zheng Fu, Gang Ouyang, Chunping Tsutsui, Satoshi Liu, Xiaozhong Yang,
+      Jeremy Gessner, Christopher Foote, Brian Wild, David Ding, Ying Yu, Qi eng
+      71573162/National Natural Science Foundation of China England 2019/06/27
+      BMC Bioinformatics. 2019 Jun 10;20(1):306. doi: 10.1186/s12859-019-2914-2.
+ER  - 
+
+TY  - JOUR
+AU  - Goldberg, D S
+AU  - Roth, F P
+TI  - Assessing experimentally derived interactions in a small world
+T2  - Proc Natl Acad Sci U S A
+VL  - 100
+IS  - 8
+SP  - 4372-4376
+PY  - 2003
+DA  - 2003
+AB  - Experimentally determined networks are susceptible to errors, yet
+      important inferences can still be drawn from them. Many real networks have
+      also been shown to have the small-world network properties of cohesive
+      neighborhoods and short average distances between vertices. Although much
+      analysis has been done on small-world networks, small-world properties
+      have not previously been used to improve our understanding of individual
+      edges in experimentally derived graphs. Here we focus on a small-world
+      network derived from high-throughput (and error-prone) protein-protein
+      interaction experiments. We exploit the neighborhood cohesiveness property
+      of small-world networks to assess confidence for individual
+      protein-protein interactions. By ascertaining how well each
+      protein-protein interaction (edge) fits the pattern of a small-world
+      network, we stratify even those edges with identical experimental
+      evidence. This result promises to improve the quality of inference from
+      protein-protein interaction networks in particular and small-world
+      networks in general.
+SN  - 0027-8424
+DO  - 10.1073/pnas.0735871100
+UR  - http://dx.doi.org/10.1073/pnas.0735871100
+KW  - Cluster Analysis Mathematics *Models, Biological Proteins/*metabolism Saccharomyces cerevisiae Proteins/metabolism
+N1  - 1091-6490 Goldberg, Debra S Roth, Frederick P Journal Article Research
+      Support, Non-U.S. Gov't United States 2003/04/05 Proc Natl Acad Sci U S A.
+      2003 Apr 15;100(8):4372-6. doi: 10.1073/pnas.0735871100. Epub 2003 Apr 3.
+ER  - 
+
+TY  - MISC
+AU  - Goyal, Palash
+AU  - Hosseinmardi, Homa
+AU  - Ferrara, Emilio
+AU  - Galstyan, Aram
+TI  - Embedding Networks with Edge Attributes
+SP  - 38-42
+PY  - 2018
+DA  - 2018
+DO  - 10.1145/3209542.3209571
+UR  - http://dx.doi.org/10.1145/3209542.3209571
+ER  - 
+
+TY  - JOUR
+AU  - Grantham, R
+TI  - Amino acid difference formula to help explain protein evolution
+T2  - Science
+VL  - 185
+IS  - 4154
+SP  - 862-864
+PY  - 1974
+DA  - 1974
+AB  - A formula for diference between amino acids combines properties that
+      correlate best with protein residue substitution frequencies: composition,
+      polarity, and molecular volume. Substitution frequencies agree much better
+      with overall chemical difference between exchanging residues than with
+      minimum base changes between their codons. Correlation coefficients show
+      that fixation of mutations between dissimilar amino acids is generally
+      rare.
+SN  - 0036-8075
+DO  - 10.1126/science.185.4154.862
+UR  - http://dx.doi.org/10.1126/science.185.4154.862
+KW  - *Amino Acids Biological Evolution *Genetic Code Mathematics *Models, Biological *Mutation *Protein Biosynthesis Protein Conformation RNA, Messenger
+N1  - Grantham, R Journal Article United States 1974/09/06 Science. 1974 Sep
+      6;185(4154):862-4. doi: 10.1126/science.185.4154.862.
+ER  - 
+
+TY  - JOUR
+AU  - Grover, A
+AU  - Leskovec, J
+TI  - node2vec: Scalable Feature Learning for Networks
+T2  - KDD
+VL  - 2016
+SP  - 855-864
+PY  - 2016
+DA  - 2016
+AB  - Prediction tasks over nodes and edges in networks require careful effort
+      in engineering features used by learning algorithms. Recent research in
+      the broader field of representation learning has led to significant
+      progress in automating prediction by learning the features themselves.
+      However, present feature learning approaches are not expressive enough to
+      capture the diversity of connectivity patterns observed in networks. Here
+      we propose node2vec, an algorithmic framework for learning continuous
+      feature representations for nodes in networks. In node2vec, we learn a
+      mapping of nodes to a low-dimensional space of features that maximizes the
+      likelihood of preserving network neighborhoods of nodes. We define a
+      flexible notion of a node's network neighborhood and design a biased
+      random walk procedure, which efficiently explores diverse neighborhoods.
+      Our algorithm generalizes prior work which is based on rigid notions of
+      network neighborhoods, and we argue that the added flexibility in
+      exploring neighborhoods is the key to learning richer representations. We
+      demonstrate the efficacy of node2vec over existing state-of-the-art
+      techniques on multi-label classification and link prediction in several
+      real-world networks from diverse domains. Taken together, our work
+      represents a new way for efficiently learning state-of-the-art
+      task-independent representations in complex networks.
+SN  - 2154-817X
+DO  - 10.1145/2939672.2939754
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/27853626
+UR  - http://dx.doi.org/10.1145/2939672.2939754
+KW  - Algorithms Experimentation Feature learning Graph representations Information networks Node embeddings
+N1  - Grover, Aditya Leskovec, Jure eng U54 EB020405/EB/NIBIB NIH HHS/
+      2016/11/18 KDD. 2016 Aug;2016:855-864. doi: 10.1145/2939672.2939754.
+ER  - 
+
+TY  - JOUR
+AU  - Hamilton, William
+AU  - Ying, Rex
+AU  - Leskovec, Jure
+TI  - Representation Learning on Graphs: Methods and Applications
+PY  - 2017
+DA  - 2017
+ER  - 
+
+TY  - JOUR
+AU  - Hao, Yiran
+AU  - Sheng, Yiqiang
+AU  - Wang, Jinlin
+TI  - A Graph Representation Learning Algorithm for Low-Order Proximity Feature
+      Extraction to Enhance Unsupervised IDS Preprocessing
+T2  - Applied Sciences
+VL  - 9
+IS  - 20
+PY  - 2019
+DA  - 2019
+SN  - 2076-3417
+DO  - 10.3390/app9204473
+UR  - http://dx.doi.org/10.3390/app9204473
+ER  - 
+
+TY  - JOUR
+AU  - Hashemifar, S
+AU  - Neyshabur, B
+AU  - Khan, A A
+AU  - Xu, J
+TI  - Predicting protein-protein interactions through sequence-based deep
+      learning
+T2  - Bioinformatics
+VL  - 34
+IS  - 17
+SP  - i802-i810
+PY  - 2018
+DA  - 2018
+AB  - Motivation: High-throughput experimental techniques have produced a large
+      amount of protein-protein interaction (PPI) data, but their coverage is
+      still low and the PPI data is also very noisy. Computational prediction of
+      PPIs can be used to discover new PPIs and identify errors in the
+      experimental PPI data. Results: We present a novel deep learning
+      framework, DPPI, to model and predict PPIs from sequence information
+      alone. Our model efficiently applies a deep, Siamese-like convolutional
+      neural network combined with random projection and data augmentation to
+      predict PPIs, leveraging existing high-quality experimental PPI data and
+      evolutionary information of a protein pair under prediction. Our
+      experimental results show that DPPI outperforms the state-of-the-art
+      methods on several benchmarks in terms of area under precision-recall
+      curve (auPR), and computationally is more efficient. We also show that
+      DPPI is able to predict homodimeric interactions where other methods fail
+      to work accurately, and the effectiveness of DPPI in specific applications
+      such as predicting cytokine-receptor binding affinities. Availability and
+      implementation: Predicting protein-protein interactions through
+      sequence-based deep learning): https://github.com/hashemifar/DPPI/.
+      Supplementary information: Supplementary data are available at
+      Bioinformatics online.
+SN  - 1367-4811
+DO  - 10.1093/bioinformatics/bty573
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/30423091
+UR  - http://dx.doi.org/10.1093/bioinformatics/bty573
+KW  - Animals Area Under Curve *Deep Learning Humans Mice Protein Binding Protein Interaction Mapping/*methods Proteins/chemistry/*metabolism Software
+N1  - Hashemifar, Somaye Neyshabur, Behnam Khan, Aly A Xu, Jinbo eng R01
+      GM089753/GM/NIGMS NIH HHS/ Research Support, N.I.H., Extramural Research
+      Support, Non-U.S. Gov't Research Support, U.S. Gov't, Non-P.H.S. England
+      2018/11/14 Bioinformatics. 2018 Sep 1;34(17):i802-i810. doi:
+      10.1093/bioinformatics/bty573.
+ER  - 
+
+TY  - JOUR
+AU  - Huang, K
+AU  - Xiao, C
+AU  - Glass, L M
+AU  - Zitnik, M
+AU  - Sun, J
+TI  - SkipGNN: predicting molecular interactions with skip-graph networks
+T2  - Sci Rep
+VL  - 10
+IS  - 1
+SP  - 21092
+PY  - 2020
+DA  - 2020
+AB  - Molecular interaction networks are powerful resources for molecular
+      discovery. They are increasingly used with machine learning methods to
+      predict biologically meaningful interactions. While deep learning on
+      graphs has dramatically advanced the prediction prowess, current graph
+      neural network (GNN) methods are mainly optimized for prediction on the
+      basis of direct similarity between interacting nodes. In biological
+      networks, however, similarity between nodes that do not directly interact
+      has proved incredibly useful in the last decade across a variety of
+      interaction networks. Here, we present SkipGNN, a graph neural network
+      approach for the prediction of molecular interactions. SkipGNN predicts
+      molecular interactions by not only aggregating information from direct
+      interactions but also from second-order interactions, which we call skip
+      similarity. In contrast to existing GNNs, SkipGNN receives neural messages
+      from two-hop neighbors as well as immediate neighbors in the interaction
+      network and non-linearly transforms the messages to obtain useful
+      information for prediction. To inject skip similarity into a GNN, we
+      construct a modified version of the original network, called the skip
+      graph. We then develop an iterative fusion scheme that optimizes a GNN
+      using both the skip graph and the original graph. Experiments on four
+      interaction networks, including drug-drug, drug-target, protein-protein,
+      and gene-disease interactions, show that SkipGNN achieves superior and
+      robust performance. Furthermore, we show that unlike popular GNNs, SkipGNN
+      learns biologically meaningful embeddings and performs especially well on
+      noisy, incomplete interaction networks.
+SN  - 2045-2322
+DO  - 10.1038/s41598-020-77766-9
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/33273494
+UR  - http://dx.doi.org/10.1038/s41598-020-77766-9
+N1  - Huang, Kexin Xiao, Cao Glass, Lucas M Zitnik, Marinka Sun, Jimeng eng
+      England 2020/12/05 Sci Rep. 2020 Dec 3;10(1):21092. doi:
+      10.1038/s41598-020-77766-9.
+ER  - 
+
+TY  - CHAP
+AU  - Kakkola, Laura
+AU  - Ikonen, Niina
+AU  - Julkunen, Ilkka
+A2  - Bamford, Dennis H
+A2  - Zuckerman, Mark
+TI  - Influenza A Viruses (Orthomyxoviridae)
+T2  - Encyclopedia of Virology (Fourth Edition)
+SP  - 551-560
+PY  - 2021
+DA  - 2021
+PB  - Academic Press
+CY  - Oxford
+AB  - Influenza A viruses (IAV) cause annual epidemics and occasional pandemics
+      in the human population. IAVs are subtyped according to the viral envelope
+      glycoproteins hemagglutinin (HA) and neuraminidase (NA) proteins. IAVs,
+      seasonal H1N1 and H3N2 as well as some other subtypes cause respiratory
+      tract infections that can occasionally be severe leading to pneumonia or
+      acute respiratory distress syndrome (ARDS) in humans. IAV infections can
+      be prevented with vaccines or treated with antiviral drugs. However, the
+      vaccine composition needs to be updated every year due to antigenic
+      variation of IAVs.
+SN  - 9780128145166
+DO  - 10.1016/B978-0-12-814515-9.00046-1
+UR  - https://www.sciencedirect.com/science/article/pii/B9780128145159000461
+UR  - http://dx.doi.org/10.1016/B978-0-12-814515-9.00046-1
+KW  - Antigenic variation Antivirals ARDS Influenza A virus Innate immune response Pandemic Pneumonia Vaccine
+ER  - 
+
+TY  - JOUR
+AU  - Keogh, Eamonn
+AU  - Ratanamahatana, Chotirat Ann
+TI  - Exact indexing of dynamic time warping
+T2  - Knowledge and Information Systems
+VL  - 7
+IS  - 3
+SP  - 358-386
+PY  - 2005
+DA  - 2005
+AB  - The problem of indexing time series has attracted much interest. Most
+      algorithms used to index time series utilize the Euclidean distance or
+      some variation thereof. However, it has been forcefully shown that the
+      Euclidean distance is a very brittle distance measure. Dynamic time
+      warping (DTW) is a much more robust distance measure for time series,
+      allowing similar shapes to match even if they are out of phase in the time
+      axis. Because of this flexibility, DTW is widely used in science,
+      medicine, industry and finance. Unfortunately, however, DTW does not obey
+      the triangular inequality and thus has resisted attempts at exact
+      indexing. Instead, many researchers have introduced approximate indexing
+      techniques or abandoned the idea of indexing and concentrated on speeding
+      up sequential searches. In this work, we introduce a novel technique for
+      the exact indexing of DTW. We prove that our method guarantees no false
+      dismissals and we demonstrate its vast superiority over all competing
+      approaches in the largest and most comprehensive set of time series
+      indexing experiments ever undertaken.
+SN  - 0219-3116
+DO  - 10.1007/s10115-004-0154-9
+UR  - https://doi.org/10.1007/s10115-004-0154-9
+UR  - http://dx.doi.org/10.1007/s10115-004-0154-9
+ER  - 
+
+TY  - JOUR
+AU  - Kingma, Diederik
+AU  - Ba, Jimmy
+TI  - Adam: A Method for Stochastic Optimization
+T2  - International Conference on Learning Representations
+PY  - 2014
+DA  - 2014
+ER  - 
+
+TY  - JOUR
+AU  - Kipf, Thomas N
+AU  - Welling, Max
+TI  - Variational Graph Auto-Encoders
+PY  - 2016
+DA  - 2016
+DO  - 10.48550/ARXIV.1611.07308
+UR  - https://arxiv.org/abs/1611.07308
+UR  - http://dx.doi.org/10.48550/ARXIV.1611.07308
+ER  - 
+
+TY  - JOUR
+AU  - Kovács, István A
+AU  - Luck, Katja
+AU  - Spirohn, Kerstin
+AU  - Wang, Yang
+AU  - Pollis, Carl
+AU  - Schlabach, Sadie
+AU  - Bian, Wenting
+AU  - Kim, Dae-Kyum
+AU  - Kishore, Nishka
+AU  - Hao, Tong
+AU  - Calderwood, Michael A
+AU  - Vidal, Marc
+AU  - Barabási, Albert-László
+TI  - Network-based prediction of protein interactions
+T2  - Nature Communications
+VL  - 10
+IS  - 1
+SP  - 1240
+PY  - 2019
+DA  - 2019
+AB  - Despite exceptional experimental efforts to map out the human interactome,
+      the continued data incompleteness limits our ability to understand the
+      molecular roots of human disease. Computational tools offer a promising
+      alternative, helping identify biologically significant, yet unmapped
+      protein-protein interactions (PPIs). While link prediction methods connect
+      proteins on the basis of biological or network-based similarity,
+      interacting proteins are not necessarily similar and similar proteins do
+      not necessarily interact. Here, we offer structural and evolutionary
+      evidence that proteins interact not if they are similar to each other, but
+      if one of them is similar to the other’s partners. This approach, that
+      mathematically relies on network paths of length three (L3), significantly
+      outperforms all existing link prediction methods. Given its high accuracy,
+      we show that L3 can offer mechanistic insights into disease mechanisms and
+      can complement future experimental efforts to complete the human
+      interactome.
+SN  - 2041-1723
+DO  - 10.1038/s41467-019-09177-y
+UR  - https://doi.org/10.1038/s41467-019-09177-y
+UR  - http://dx.doi.org/10.1038/s41467-019-09177-y
+ER  - 
+
+TY  - JOUR
+AU  - Kumar, Ranjit
+AU  - Nanduri, Bindu
+TI  - HPIDB - a unified resource for host-pathogen interactions
+T2  - BMC Bioinformatics
+VL  - 11
+IS  - 6
+SP  - S16
+PY  - 2010
+DA  - 2010
+AB  - Protein-protein interactions (PPIs) play a crucial role in initiating
+      infection in a host-pathogen system. Identification of these PPIs is
+      important for understanding the underlying biological mechanism of
+      infection and identifying putative drug targets. Database resources for
+      studying host-pathogen systems are scarce and are either host specific or
+      dedicated to specific pathogens.
+SN  - 1471-2105
+DO  - 10.1186/1471-2105-11-S6-S16
+UR  - https://doi.org/10.1186/1471-2105-11-S6-S16
+UR  - http://dx.doi.org/10.1186/1471-2105-11-S6-S16
+ER  - 
+
+TY  - JOUR
+AU  - Liu, L
+AU  - Zhu, X
+AU  - Ma, Y
+AU  - Piao, H
+AU  - Yang, Y
+AU  - Hao, X
+AU  - Fu, Y
+AU  - Wang, L
+AU  - Peng, J
+TI  - Combining sequence and network information to enhance protein-protein
+      interaction prediction
+T2  - BMC Bioinformatics
+VL  - 21
+IS  - Suppl 16
+SP  - 537
+PY  - 2020
+DA  - 2020
+AB  - BACKGROUND: Protein-protein interactions (PPIs) are of great importance in
+      cellular systems of organisms, since they are the basis of cellular
+      structure and function and many essential cellular processes are related
+      to that. Most proteins perform their functions by interacting with other
+      proteins, so predicting PPIs accurately is crucial for understanding cell
+      physiology. RESULTS: Recently, graph convolutional networks (GCNs) have
+      been proposed to capture the graph structure information and generate
+      representations for nodes in the graph. In our paper, we use GCNs to learn
+      the position information of proteins in the PPIs networks graph, which can
+      reflect the properties of proteins to some extent. Combining amino acid
+      sequence information and position information makes a stronger
+      representation for protein, which improves the accuracy of PPIs
+      prediction. CONCLUSION: In previous research methods, most of them only
+      used protein amino acid sequence as input information to make predictions,
+      without considering the structural information of PPIs networks graph. We
+      first time combine amino acid sequence information and position
+      information to make representations for proteins. The experimental results
+      indicate that our method has strong competitiveness compared with several
+      sequence-based methods.
+SN  - 1471-2105
+DO  - 10.1186/s12859-020-03896-6
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/33323120
+UR  - http://dx.doi.org/10.1186/s12859-020-03896-6
+KW  - Amino Acid Sequence Databases, Protein Humans Protein Interaction Mapping/*methods Proteins/*chemistry/*metabolism Saccharomyces cerevisiae/metabolism Saccharomyces cerevisiae Proteins/metabolism Graph convolutional networks Protein-protein interactions
+N1  - Liu, Leilei Zhu, Xianglei Ma, Yi Piao, Haiyin Yang, Yaodong Hao, Xiaotian
+      Fu, Yue Wang, Li Peng, Jiajie eng Grant Nos. U1836214/National Natural
+      Science Foundation of China (CN) 19JCYBJC16300/Tianjin Nature fund,
+      Research on Data Platform Technology Based on Automotive Electronic
+      Identification System England 2020/12/17 BMC Bioinformatics. 2020 Dec
+      16;21(Suppl 16):537. doi: 10.1186/s12859-020-03896-6.
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Renming
+AU  - Hirn, Matthew J
+AU  - Krishnan, Arjun
+TI  - Accurately Modeling Biased Random Walks on Weighted Graphs Using Node2vec+
+T2  - CoRR
+VL  - abs/2109.08031
+PY  - 2021
+DA  - 2021
+UR  - https://arxiv.org/abs/2109.08031
+ER  - 
+
+TY  - JOUR
+AU  - Liu, Renming
+AU  - Krishnan, Arjun
+TI  - PecanPy: a fast, efficient and parallelized Python implementation of
+      node2vec
+T2  - Bioinformatics
+VL  - 37
+IS  - 19
+SP  - 3377-3379
+PY  - 2021
+DA  - 2021
+AB  - Learning low-dimensional representations (embeddings) of nodes in large
+      graphs is key to applying machine learning on massive biological networks.
+      Node2vec is the most widely used method for node embedding. However, its
+      original Python and C++ implementations scale poorly with network density,
+      failing for dense biological networks with hundreds of millions of edges.
+      We have developed PecanPy, a new Python implementation of node2vec that
+      uses cache-optimized compact graph data structures and
+      precomputing/parallelization to result in fast, high-quality node
+      embeddings for biological networks of all sizes and densities.PecanPy
+      software is freely available at
+      https://github.com/krishnanlab/PecanPy.Supplementary data are available at
+      Bioinformatics online.
+SN  - 1367-4803
+DO  - 10.1093/bioinformatics/btab202
+UR  - https://doi.org/10.1093/bioinformatics/btab202
+UR  - http://dx.doi.org/10.1093/bioinformatics/btab202
+ER  - 
+
+TY  - JOUR
+AU  - Luo, Jizhou
+AU  - Xiao, Song
+AU  - Jiang, Shouxu
+AU  - Gao, Hong
+AU  - Xiao, Yinuo
+TI  - ripple2vec: Node Embedding with Ripple Distance of Structures
+T2  - Data Science and Engineering
+VL  - 7
+IS  - 2
+SP  - 156-174
+PY  - 2022
+DA  - 2022
+DO  - 10.1007/s41019-022-00184-6
+UR  - http://dx.doi.org/10.1007/s41019-022-00184-6
+ER  - 
+
+TY  - JOUR
+AU  - Makarov, I
+AU  - Kiselev, D
+AU  - Nikitinsky, N
+AU  - Subelj, L
+TI  - Survey on graph embeddings and their applications to machine learning
+      problems on graphs
+T2  - PeerJ Comput Sci
+VL  - 7
+SP  - e357
+PY  - 2021
+DA  - 2021
+AB  - Dealing with relational data always required significant computational
+      resources, domain expertise and task-dependent feature engineering to
+      incorporate structural information into a predictive model. Nowadays, a
+      family of automated graph feature engineering techniques has been proposed
+      in different streams of literature. So-called graph embeddings provide a
+      powerful tool to construct vectorized feature spaces for graphs and their
+      components, such as nodes, edges and subgraphs under preserving inner
+      graph properties. Using the constructed feature spaces, many machine
+      learning problems on graphs can be solved via standard frameworks suitable
+      for vectorized feature representation. Our survey aims to describe the
+      core concepts of graph embeddings and provide several taxonomies for their
+      description. First, we start with the methodological approach and extract
+      three types of graph embedding models based on matrix factorization,
+      random-walks and deep learning approaches. Next, we describe how different
+      types of networks impact the ability of models to incorporate structural
+      and attributed data into a unified embedding. Going further, we perform a
+      thorough evaluation of graph embedding applications to machine learning
+      problems on graphs, among which are node classification, link prediction,
+      clustering, visualization, compression, and a family of the whole graph
+      embedding algorithms suitable for graph classification, similarity and
+      alignment problems. Finally, we overview the existing applications of
+      graph embeddings to computer science domains, formulate open problems and
+      provide experiment results, explaining how different networks properties
+      result in graph embeddings quality in the four classic machine learning
+      problems on graphs, such as node classification, link prediction,
+      clustering and graph visualization. As a result, our survey covers a new
+      rapidly growing field of network feature engineering, presents an in-depth
+      analysis of models based on network types, and overviews a wide range of
+      applications to machine learning problems on graphs.
+SN  - 2376-5992
+DO  - 10.7717/peerj-cs.357
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/33817007
+UR  - http://dx.doi.org/10.7717/peerj-cs.357
+KW  - Geometric deep learning Graph embedding Graph neural networks Graph visualization Knowledge representation Link prediction Machine learning Network science Node classification Node clustering
+N1  - Makarov, Ilya Kiselev, Dmitrii Nikitinsky, Nikita Subelj, Lovro eng
+      2021/04/06 PeerJ Comput Sci. 2021 Feb 4;7:e357. doi: 10.7717/peerj-cs.357.
+      eCollection 2021.
+ER  - 
+
+TY  - JOUR
+AU  - McInnes, Leland
+AU  - Healy, John
+AU  - Saul, Nathaniel
+AU  - Großberger, Lukas
+TI  - UMAP: Uniform Manifold Approximation and Projection
+T2  - Journal of Open Source Software
+VL  - 3
+IS  - 29
+SP  - 861
+PY  - 2018
+DA  - 2018
+DO  - 10.21105/joss.00861
+UR  - http://dx.doi.org/10.21105/joss.00861
+ER  - 
+
+TY  - JOUR
+AU  - Perozzi, Bryan
+AU  - Al-Rfou, Rami
+AU  - Skiena, Steven
+TI  - DeepWalk: Online Learning of Social Representations
+T2  - Proceedings of the ACM SIGKDD International Conference on Knowledge
+      Discovery and Data Mining
+PY  - 2014
+DA  - 2014
+DO  - 10.1145/2623330.2623732
+UR  - http://dx.doi.org/10.1145/2623330.2623732
+ER  - 
+
+TY  - JOUR
+AU  - Picciolo, Francesco
+AU  - Ruzzenenti, Franco
+AU  - Holme, Petter
+AU  - Mastrandrea, Rossana
+TI  - Weighted network motifs as random walk patterns
+T2  - New Journal of Physics
+VL  - 24
+IS  - 5
+SP  - 053056
+PY  - 2022
+DA  - 2022
+AB  - Over the last two decades, network theory has shown to be a fruitful
+      paradigm in understanding the organization and functioning of real-world
+      complex systems. One technique helpful to this endeavor is identifying
+      functionally influential subgraphs, shedding light on underlying
+      evolutionary processes. Such overrepresented subgraphs, motifs, have
+      received much attention in simple networks, where edges are either on or
+      off. However, for weighted networks, motif analysis is still undeveloped.
+      Here, we proposed a novel methodology—based on a random walker taking a
+      fixed maximum number of steps—to study weighted motifs of limited size. We
+      introduce a sink node to balance the network and allow the detection of
+      configurations within an a priori fixed number of steps for the random
+      walker. We applied this approach to different real networks and selected a
+      specific null model based on maximum-entropy to test the significance of
+      weighted motifs occurrence. We found that identified similarities enable
+      the classifications of systems according to functioning mechanisms
+      associated with specific configurations: economic networks exhibit close
+      patterns while differentiating from ecological systems without any a
+      priori assumption.
+SN  - 1367-2630
+DO  - 10.1088/1367-2630/ac6f75
+UR  - https://dx.doi.org/10.1088/1367-2630/ac6f75
+UR  - http://dx.doi.org/10.1088/1367-2630/ac6f75
+ER  - 
+
+TY  - MISC
+AU  - Ribeiro, Leonardo F R
+AU  - Saverese, Pedro H P
+AU  - Figueiredo, Daniel R
+TI  - struc2vec: Learning Node Representations from Structural Identity
+SP  - 385-394
+PY  - 2017
+DA  - 2017
+DO  - 10.1145/3097983.3098061
+UR  - http://dx.doi.org/10.1145/3097983.3098061
+ER  - 
+
+TY  - BOOK
+AU  - Rosenberg, Andrew
+AU  - Hirschberg, Julia
+TI  - V-Measure: A Conditional Entropy-Based External Cluster Evaluation Measure
+PY  - 2007
+DA  - 2007
+ER  - 
+
+TY  - JOUR
+AU  - Saebi, M
+AU  - Ciampaglia, G L
+AU  - Kaplan, L M
+AU  - Chawla, N V
+TI  - HONEM: Learning Embedding for Higher Order Networks
+T2  - Big Data
+VL  - 8
+IS  - 4
+SP  - 255-269
+PY  - 2020
+DA  - 2020
+AB  - Representation learning on networks offers a powerful alternative to the
+      oft painstaking process of manual feature engineering, and, as a result,
+      has enjoyed considerable success in recent years. However, all the
+      existing representation learning methods are based on the first-order
+      network, that is, the network that only captures the pairwise interactions
+      between the nodes. As a result, these methods may fail to incorporate
+      non-Markovian higher order dependencies in the network. Thus, the
+      embeddings that are generated may not accurately represent the underlying
+      phenomena in a network, resulting in inferior performance in different
+      inductive or transductive learning tasks. To address this challenge, this
+      study presents higher order network embedding (HONEM), a higher order
+      network (HON) embedding method that captures the non-Markovian higher
+      order dependencies in a network. HONEM is specifically designed for the
+      HON structure and outperforms other state-of-the-art methods in node
+      classification, network reconstruction, link prediction, and visualization
+      for networks that contain non-Markovian higher order dependencies.
+SN  - 2167-6461
+DO  - 10.1089/big.2019.0169
+UR  - http://dx.doi.org/10.1089/big.2019.0169
+KW  - Algorithms *Computational Biology *Learning *Neural Networks, Computer Software higher order network network embedding network representation learning
+N1  - 2167-647x Saebi, Mandana Ciampaglia, Giovanni Luca Kaplan, Lance M Chawla,
+      Nitesh V Journal Article Research Support, Non-U.S. Gov't Research
+      Support, U.S. Gov't, Non-P.H.S. United States 2020/08/22 Big Data. 2020
+      Aug;8(4):255-269. doi: 10.1089/big.2019.0169.
+ER  - 
+
+TY  - JOUR
+AU  - Saravanan, V
+AU  - Gautham, N
+TI  - Harnessing Computational Biology for Exact Linear B-Cell Epitope
+      Prediction: A Novel Amino Acid Composition-Based Feature Descriptor
+T2  - Omics
+VL  - 19
+IS  - 10
+SP  - 648-658
+PY  - 2015
+DA  - 2015
+AB  - Proteins embody epitopes that serve as their antigenic determinants.
+      Epitopes occupy a central place in integrative biology, not to mention as
+      targets for novel vaccine, pharmaceutical, and systems diagnostics
+      development. The presence of T-cell and B-cell epitopes has been
+      extensively studied due to their potential in synthetic vaccine design.
+      However, reliable prediction of linear B-cell epitope remains a formidable
+      challenge. Earlier studies have reported discrepancy in amino acid
+      composition between the epitopes and non-epitopes. Hence, this study
+      proposed and developed a novel amino acid composition-based feature
+      descriptor, Dipeptide Deviation from Expected Mean (DDE), to distinguish
+      the linear B-cell epitopes from non-epitopes effectively. In this study,
+      for the first time, only exact linear B-cell epitopes and non-epitopes
+      have been utilized for developing the prediction method, unlike the use of
+      epitope-containing regions in earlier reports. To evaluate the performance
+      of the DDE feature vector, models have been developed with two widely used
+      machine-learning techniques Support Vector Machine and AdaBoost-Random
+      Forest. Five-fold cross-validation performance of the proposed method with
+      error-free dataset and dataset from other studies achieved an overall
+      accuracy between nearly 61% and 73%, with balance between sensitivity and
+      specificity metrics. Performance of the DDE feature vector was better
+      (with accuracy difference of about 2% to 12%), in comparison to other
+      amino acid-derived features on different datasets. This study reflects the
+      efficiency of the DDE feature vector in enhancing the linear B-cell
+      epitope prediction performance, compared to other feature representations.
+      The proposed method is made as a stand-alone tool available freely for
+      researchers, particularly for those interested in vaccine design and novel
+      molecular target development for systems therapeutics and diagnostics:
+      https://github.com/brsaran/LBEEP.
+SN  - 1536-2310
+DO  - 10.1089/omi.2015.0095
+UR  - http://dx.doi.org/10.1089/omi.2015.0095
+KW  - Amino Acid Sequence Computational Biology/methods/*statistics & numerical data Datasets as Topic Epitopes, B-Lymphocyte/*genetics/immunology Humans *Models, Statistical Molecular Sequence Data Sensitivity and Specificity *Software *Support Vector Machine
+N1  - 1557-8100 Saravanan, Vijayakumar Gautham, Namasivayam Journal Article
+      Research Support, Non-U.S. Gov't United States 2015/09/26 OMICS. 2015
+      Oct;19(10):648-58. doi: 10.1089/omi.2015.0095. Epub 2015 Sep 25.
+ER  - 
+
+TY  - JOUR
+AU  - Sarkar, D
+AU  - Saha, S
+TI  - Machine-learning techniques for the prediction of protein-protein
+      interactions
+T2  - J Biosci
+VL  - 44
+IS  - 4
+PY  - 2019
+DA  - 2019
+AB  - Protein-protein interactions (PPIs) are important for the study of protein
+      functions and pathways involved in different biological processes, as well
+      as for understanding the cause and progression of diseases. Several
+      high-throughput experimental techniques have been employed for the
+      identification of PPIs in a few model organisms, but still, there is a
+      huge gap in identifying all possible binary PPIs in an organism.
+      Therefore, PPI prediction using machine-learning algorithms has been used
+      in conjunction with experimental methods for discovery of novel protein
+      interactions. The two most popular supervised machine-learning techniques
+      used in the prediction of PPIs are support vector machines and random
+      forest classifiers. Bayesian-probabilistic inference has also been used
+      but mainly for the scoring of high-throughput PPI dataset confidence
+      measures. Recently, deep-learning algorithms have been used for
+      sequence-based prediction of PPIs. Several clustering methods such as
+      hierarchical and k-means are useful as unsupervised machine-learning
+      algorithms for the prediction of interacting protein pairs without
+      explicit data labelling. In summary, machine-learning techniques have been
+      widely used for the prediction of PPIs thus allowing experimental
+      researchers to study cellular PPI networks.
+SN  - 0250-5991
+KW  - Algorithms Bayes Theorem Computational Biology Humans *Machine Learning Protein Interaction Maps/*genetics Proteins/*genetics *Support Vector Machine
+N1  - 0973-7138 Sarkar, Debasree Saha, Sudipto Journal Article India 2019/09/11
+      J Biosci. 2019 Sep;44(4):104.
+ER  - 
+
+TY  - JOUR
+AU  - Schmidhuber, Jürgen
+TI  - Deep learning in neural networks: An overview
+T2  - Neural Networks
+VL  - 61
+SP  - 85-117
+PY  - 2015
+DA  - 2015
+AB  - In recent years, deep artificial neural networks (including recurrent
+      ones) have won numerous contests in pattern recognition and machine
+      learning. This historical survey compactly summarizes relevant work, much
+      of it from the previous millennium. Shallow and Deep Learners are
+      distinguished by the depth of their credit assignment paths, which are
+      chains of possibly learnable, causal links between actions and effects. I
+      review deep supervised learning (also recapitulating the history of
+      backpropagation), unsupervised learning, reinforcement learning &
+      evolutionary computation, and indirect search for short programs encoding
+      deep and large networks.
+SN  - 0893-6080
+DO  - 10.1016/j.neunet.2014.09.003
+UR  - https://www.sciencedirect.com/science/article/pii/S0893608014002135
+UR  - http://dx.doi.org/10.1016/j.neunet.2014.09.003
+KW  - Deep learning Supervised learning Unsupervised learning Reinforcement learning Evolutionary computation
+ER  - 
+
+TY  - JOUR
+AU  - Schneider, G
+AU  - Wrede, P
+TI  - The rational design of amino acid sequences by artificial neural networks
+      and simulated molecular evolution: de novo design of an idealized leader
+      peptidase cleavage site
+T2  - Biophys J
+VL  - 66
+IS  - 2 Pt 1
+SP  - 335-344
+PY  - 1994
+DA  - 1994
+AB  - A method for the rational design of locally encoded amino acid sequence
+      features using artificial neural networks and a technique for simulating
+      molecular evolution has been developed. De novo in machine design of
+      Escherichia coli leader peptidase (SP1) cleavage sites serves as an
+      example application. A modular neural network system that employs sequence
+      descriptions in terms of physicochemical properties has been trained on
+      the recognition of characteristic cleavage site features. It is used for
+      sequence qualification in the design cycle, representing the sequence
+      fitness function. Starting from a random sequence several cleavage site
+      sequences were generated by a simulated molecular evolution technique. It
+      is based on a simple genetic algorithm that takes the quality values
+      calculated by the artificial neural network as a heuristic for inductive
+      sequence optimization. Simulated in vivo mutation and selection allows the
+      identification of predominant sequence positions in Escherichia coli
+      signal peptide cleavage site regions (positions -2 and -6). Various amino
+      acid distance maps are used to define metrics for the step size of
+      mutations. Position-specific mutability values indicate sequence positions
+      exposed to high or low selection pressure in the simulations. The use of
+      several distance maps leads to different courses of optimization and to
+      various idealized sequences. It is concluded that amino acid distances are
+      context dependent. Furthermore, a method for identification of local
+      optima during sequence optimization is presented.
+SN  - 0006-3495
+DO  - 10.1016/s0006-3495(94)80782-9
+UR  - http://dx.doi.org/10.1016/s0006-3495(94)80782-9
+KW  - Algorithms Amino Acid Sequence Binding Sites/genetics Biological Evolution Biophysical Phenomena Biophysics Computer Simulation *Drug Design Endopeptidases/chemistry/*genetics Escherichia coli/enzymology/genetics *Membrane Proteins Molecular Sequence Data *Neural Networks, Computer Protein Engineering Protein Sorting Signals/genetics *Serine Endopeptidases
+N1  - 1542-0086 Schneider, G Wrede, P Journal Article Research Support, Non-U.S.
+      Gov't United States 1994/02/01 Biophys J. 1994 Feb;66(2 Pt 1):335-44. doi:
+      10.1016/s0006-3495(94)80782-9.
+ER  - 
+
+TY  - MISC
+AU  - Shan, Hongyu
+AU  - Jin, Di
+AU  - Jiao, Pengfei
+AU  - Liu, Ziyang
+AU  - Li, Bingyi
+AU  - Huang, Yuxiao
+TI  - NF-VGA: Incorporating Normalizing Flows into Graph Variational Autoencoder
+      for Embedding Attribute Networks
+SP  - 1244-1249
+PY  - 2020
+DA  - 2020
+DO  - 10.1109/icdm50108.2020.00157
+UR  - http://dx.doi.org/10.1109/icdm50108.2020.00157
+ER  - 
+
+TY  - JOUR
+AU  - Shen, J
+AU  - Zhang, J
+AU  - Luo, X
+AU  - Zhu, W
+AU  - Yu, K
+AU  - Chen, K
+AU  - Li, Y
+AU  - Jiang, H
+TI  - Predicting protein-protein interactions based only on sequences
+      information
+T2  - Proc Natl Acad Sci U S A
+VL  - 104
+IS  - 11
+SP  - 4337-4341
+PY  - 2007
+DA  - 2007
+AB  - Protein-protein interactions (PPIs) are central to most biological
+      processes. Although efforts have been devoted to the development of
+      methodology for predicting PPIs and protein interaction networks, the
+      application of most existing methods is limited because they need
+      information about protein homology or the interaction marks of the protein
+      partners. In the present work, we propose a method for PPI prediction
+      using only the information of protein sequences. This method was developed
+      based on a learning algorithm-support vector machine combined with a
+      kernel function and a conjoint triad feature for describing amino acids.
+      More than 16,000 diverse PPI pairs were used to construct the universal
+      model. The prediction ability of our approach is better than that of other
+      sequence-based PPI prediction methods because it is able to predict PPI
+      networks. Different types of PPI networks have been effectively mapped
+      with our method, suggesting that, even with only sequence information,
+      this method could be applied to the exploration of networks for any newly
+      discovered protein with unknown biological relativity. In addition, such
+      supplementary experimental information can enhance the prediction ability
+      of the method.
+SN  - 0027-8424
+DO  - 10.1073/pnas.0607879104
+UR  - http://dx.doi.org/10.1073/pnas.0607879104
+KW  - Algorithms Amino Acids/chemistry Base Sequence Computational Biology/*methods Databases, Protein Humans Programming Languages Protein Interaction Mapping/*methods Proteomics/*methods Reproducibility of Results Sensitivity and Specificity Sequence Analysis, Protein Software
+N1  - 1091-6490 Shen, Juwen Zhang, Jian Luo, Xiaomin Zhu, Weiliang Yu, Kunqian
+      Chen, Kaixian Li, Yixue Jiang, Hualiang Journal Article Research Support,
+      Non-U.S. Gov't United States 2007/03/16 Proc Natl Acad Sci U S A. 2007 Mar
+      13;104(11):4337-41. doi: 10.1073/pnas.0607879104. Epub 2007 Mar 5.
+ER  - 
+
+TY  - JOUR
+AU  - Singh, Rohit
+AU  - Devkota, Kapil
+AU  - Sledzieski, Samuel
+AU  - Berger, Bonnie
+AU  - Cowen, Lenore
+TI  - Topsy-Turvy: integrating a global view into sequence-based PPI prediction
+T2  - Bioinformatics
+VL  - 38
+IS  - Supplement_1
+SP  - i264-i272
+PY  - 2022
+DA  - 2022
+AB  - Computational methods to predict protein–protein interaction (PPI)
+      typically segregate into sequence-based ‘bottom-up’ methods that infer
+      properties from the characteristics of the individual protein sequences,
+      or global ‘top-down’ methods that infer properties from the pattern of
+      already known PPIs in the species of interest. However, a way to
+      incorporate top-down insights into sequence-based bottom-up PPI prediction
+      methods has been elusive. We thus introduce Topsy-Turvy, a method that
+      newly synthesizes both views in a sequence-based, multi-scale,
+      deep-learning model for PPI prediction. While Topsy-Turvy makes
+      predictions using only sequence data, during the training phase it takes a
+      transfer-learning approach by incorporating patterns from both global and
+      molecular-level views of protein interaction. In a cross-species context,
+      we show it achieves state-of-the-art performance, offering the ability to
+      perform genome-scale, interpretable PPI prediction for non-model organisms
+      with no existing experimental PPI data. In species with available
+      experimental PPI data, we further present a Topsy-Turvy hybrid (TT-Hybrid)
+      model which integrates Topsy-Turvy with a purely network-based model for
+      link prediction that provides information about species-specific network
+      rewiring. TT-Hybrid makes accurate predictions for both well- and
+      sparsely-characterized proteins, outperforming both its constituent
+      components as well as other state-of-the-art PPI prediction methods.
+      Furthermore, running Topsy-Turvy and TT-Hybrid screens is feasible for
+      whole genomes, and thus these methods scale to settings where other
+      methods (e.g. AlphaFold-Multimer) might be infeasible. The
+      generalizability, accuracy and genome-level scalability of Topsy-Turvy and
+      TT-Hybrid unlocks a more comprehensive map of protein interaction and
+      organization in both model and non-model
+      organisms.https://topsyturvy.csail.mit.edu.Supplementary data are
+      available at Bioinformatics online.
+SN  - 1367-4803
+DO  - 10.1093/bioinformatics/btac258
+UR  - https://doi.org/10.1093/bioinformatics/btac258
+UR  - http://dx.doi.org/10.1093/bioinformatics/btac258
+ER  - 
+
+TY  - JOUR
+AU  - Sokal, R R
+AU  - Thomson, B A
+TI  - Population structure inferred by local spatial autocorrelation: an example
+      from an Amerindian tribal population
+T2  - Am J Phys Anthropol
+VL  - 129
+IS  - 1
+SP  - 121-131
+PY  - 2006
+DA  - 2006
+AB  - Spatial autocorrelation (SA) methods were recently extended to detect
+      local spatial autocorrelation (LSA) at individual localities. LSA
+      statistics serve as useful indicators of local genetic population
+      structure. We applied this method to 15 allele frequencies from 43
+      villages of a South American tribe, the Yanomama. Based on a network of
+      links <or=51 km between neighboring villages, we calculated LSA statistics
+      for Moran, Geary, and Getis-Ord coefficients. We also developed two new,
+      rescaled indices of local SA. Local indicators of positive SA highlight
+      villages surrounded by genetically similar near neighbors. Negative LSA
+      statistics indicate sharp genetic differences from near neighbors.
+      Markedly positive LSA was found for all 11 outlier villages. The most
+      negatively LSA villages are in the central, densely connected cluster. The
+      Getis-Ord coefficients of suitably transformed allele frequencies point to
+      clusters of villages with unusually high or low allelic polymorphisms. The
+      most homozygous villages are all in the four geographically isolated
+      village clusters. The most polymorphic villages are all in the large,
+      densely settled Yanomame dialect group. An ad hoc linguistic isolation
+      index between neighboring villages showed that villages in isolated pairs
+      and triplets have linguistically similar neighbors, whereas nine villages
+      with notably negative LSA are all near dialect and kinship boundaries. The
+      location of a village with respect to the graph structure of its
+      neighborhood affects its LSA and genetic polymorphism. The implications of
+      these findings for the population structure of the Yanomama are compatible
+      with those from an earlier study of global SA in these villages.
+SN  - 0002-9483
+DO  - 10.1002/ajpa.20250
+UR  - http://dx.doi.org/10.1002/ajpa.20250
+KW  - Demography Gene Frequency Genetic Variation Genetics, Population/*methods Humans Indians, South American/*genetics Language Population Dynamics Rural Population
+N1  - Sokal, Robert R Thomson, Barbara A Journal Article Research Support,
+      N.I.H., Extramural Research Support, U.S. Gov't, Non-P.H.S. United States
+      2005/11/02 Am J Phys Anthropol. 2006 Jan;129(1):121-31. doi:
+      10.1002/ajpa.20250.
+ER  - 
+
+TY  - JOUR
+AU  - Soleymani, F
+AU  - Paquet, E
+AU  - Viktor, H
+AU  - Michalowski, W
+AU  - Spinello, D
+TI  - Protein-protein interaction prediction with deep learning: A comprehensive
+      review
+T2  - Comput Struct Biotechnol J
+VL  - 20
+SP  - 5316-5341
+PY  - 2022
+DA  - 2022
+AB  - Most proteins perform their biological function by interacting with
+      themselves or other molecules. Thus, one may obtain biological insights
+      into protein functions, disease prevalence, and therapy development by
+      identifying protein-protein interactions (PPI). However, finding the
+      interacting and non-interacting protein pairs through experimental
+      approaches is labour-intensive and time-consuming, owing to the variety of
+      proteins. Hence, protein-protein interaction and protein-ligand binding
+      problems have drawn attention in the fields of bioinformatics and
+      computer-aided drug discovery. Deep learning methods paved the way for
+      scientists to predict the 3-D structure of proteins from genomes, predict
+      the functions and attributes of a protein, and modify and design new
+      proteins to provide desired functions. This review focuses on recent deep
+      learning methods applied to problems including predicting protein
+      functions, protein-protein interaction and their sites, protein-ligand
+      binding, and protein design.
+SN  - 2001-0370
+DO  - 10.1016/j.csbj.2022.08.070
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/36212542
+UR  - http://dx.doi.org/10.1016/j.csbj.2022.08.070
+KW  - Deep learning Protein design Protein-protein interaction Sequence-based Structure-based
+N1  - Soleymani, Farzan Paquet, Eric Viktor, Herna Michalowski, Wojtek Spinello,
+      Davide eng Review Netherlands 2022/10/11 Comput Struct Biotechnol J. 2022
+      Sep 19;20:5316-5341. doi: 10.1016/j.csbj.2022.08.070. eCollection 2022.
+ER  - 
+
+TY  - JOUR
+AU  - Song, Wenzhuo
+AU  - Wang, Shengsheng
+AU  - Yang, Bo
+AU  - Lu, You
+AU  - Zhao, Xuehua
+AU  - Liu, Xueyan
+TI  - Learning node and edge embeddings for signed networks
+T2  - Neurocomputing
+VL  - 319
+SP  - 42-54
+PY  - 2018
+DA  - 2018
+SN  - 0925-2312
+DO  - 10.1016/j.neucom.2018.08.072
+UR  - http://dx.doi.org/10.1016/j.neucom.2018.08.072
+ER  - 
+
+TY  - MISC
+AU  - Tang, Jian
+AU  - Qu, Meng
+AU  - Wang, Mingzhe
+AU  - Zhang, Ming
+AU  - Yan, Jun
+AU  - Mei, Qiaozhu
+TI  - LINE: Large-scale Information Network Embedding
+SP  - 1067-1077
+PY  - 2015
+DA  - 2015
+DO  - 10.1145/2736277.2741093
+UR  - http://dx.doi.org/10.1145/2736277.2741093
+ER  - 
+
+TY  - JOUR
+AU  - Tornow, Sabine
+AU  - Mewes, H W
+TI  - Functional modules by relating protein interaction networks and gene
+      expression
+T2  - Nucleic acids research
+VL  - 31
+IS  - 21
+SP  - 6283-6289
+PY  - 2003
+DA  - 2003
+AB  - Genes and proteins are organized on the basis of their particular mutual
+      relations or according to their interactions in cellular and genetic
+      networks. These include metabolic or signaling pathways and protein
+      interaction, regulatory or co-expression networks. Integrating the
+      information from the different types of networks may lead to the notion of
+      a functional network and functional modules. To find these modules, we
+      propose a new technique which is based on collective, multi-body
+      correlations in a genetic network. We calculated the correlation strength
+      of a group of genes (e.g. in the co-expression network) which were
+      identified as members of a module in a different network (e.g. in the
+      protein interaction network) and estimated the probability that this
+      correlation strength was found by chance. Groups of genes with a
+      significant correlation strength in different networks have a high
+      probability that they perform the same function. Here, we propose
+      evaluating the multi-body correlations by applying the superparamagnetic
+      approach. We compare our method to the presently applied mean Pearson
+      correlations and show that our method is more sensitive in revealing
+      functional relationships.
+DO  - 10.1093/nar/gkg838
+UR  - http://dx.doi.org/10.1093/nar/gkg838
+KW  - Algorithms Cell Cycle/genetics Computational Biology/*methods Databases, Genetic Fungal Proteins/*genetics/*metabolism Gene Expression *Gene Expression Regulation, Fungal Genes, Fungal/*genetics Macromolecular Substances Open Reading Frames/genetics Probability Protein Binding Statistical Distributions Yeasts/cytology/*genetics/*metabolism
+N1  - 14576317[pmid] PMC275479[pmcid]
+ER  - 
+
+TY  - JOUR
+AU  - Tsukiyama, S
+AU  - Kurata, H
+TI  - Cross-attention PHV: Prediction of human and virus protein-protein
+      interactions using cross-attention-based neural networks
+T2  - Comput Struct Biotechnol J
+VL  - 20
+SP  - 5564-5573
+PY  - 2022
+DA  - 2022
+AB  - Viral infections represent a major health concern worldwide. The alarming
+      rate at which SARS-CoV-2 spreads, for example, led to a worldwide
+      pandemic. Viruses incorporate genetic material into the host genome to
+      hijack host cell functions such as the cell cycle and apoptosis. In these
+      viral processes, protein-protein interactions (PPIs) play critical roles.
+      Therefore, the identification of PPIs between humans and viruses is
+      crucial for understanding the infection mechanism and host immune
+      responses to viral infections and for discovering effective drugs.
+      Experimental methods including mass spectrometry-based proteomics and
+      yeast two-hybrid assays are widely used to identify human-virus PPIs, but
+      these experimental methods are time-consuming, expensive, and laborious.
+      To overcome this problem, we developed a novel computational predictor,
+      named cross-attention PHV, by implementing two key technologies of the
+      cross-attention mechanism and a one-dimensional convolutional neural
+      network (1D-CNN). The cross-attention mechanisms were very effective in
+      enhancing prediction and generalization abilities. Application of 1D-CNN
+      to the word2vec-generated feature matrices reduced computational costs,
+      thus extending the allowable length of protein sequences to 9000 amino
+      acid residues. Cross-attention PHV outperformed existing state-of-the-art
+      models using a benchmark dataset and accurately predicted PPIs for unknown
+      viruses. Cross-attention PHV also predicted human-SARS-CoV-2 PPIs with
+      area under the curve values >0.95. The Cross-attention PHV web server and
+      source codes are freely available at
+      https://kurata35.bio.kyutech.ac.jp/Cross-attention_PHV/ and
+      https://github.com/kuratahiroyuki/Cross-Attention_PHV, respectively.
+SN  - 2001-0370
+DO  - 10.1016/j.csbj.2022.10.012
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/36249566
+UR  - http://dx.doi.org/10.1016/j.csbj.2022.10.012
+KW  - 1D-CNN, One-dimensional-CNN AC, Accuracy AUC, Area under the curve CNN, Convolutional neural network Convolutional neural network DT, Decision tree F1, F1-score HV-PPIs, Human-virus PPIs HuV-PPI, Human-unknown virus PPI Human LR, Linear regression MCC, Matthews correlation coefficient PPIs, Protein-protein interactions Protein-protein interaction RF, Random forest SARS-CoV-2 SARS-CoV-2, Severe acute respiratory syndrome coronavirus 2 SN, Sensitivity SP, Specificity SVM, Support vector machine T-SNE, T-distributed stochastic neighbor embedding Virus W2V, Word2vec Word2vec
+N1  - Tsukiyama, Sho Kurata, Hiroyuki eng Netherlands 2022/10/18 Comput Struct
+      Biotechnol J. 2022;20:5564-5573. doi: 10.1016/j.csbj.2022.10.012. Epub
+      2022 Oct 8.
+ER  - 
+
+TY  - MISC
+AU  - Wang, Daixin
+AU  - Cui, Peng
+AU  - Zhu, Wenwu
+TI  - Structural Deep Network Embedding
+SP  - 1225-1234
+PY  - 2016
+DA  - 2016
+DO  - 10.1145/2939672.2939753
+UR  - http://dx.doi.org/10.1145/2939672.2939753
+ER  - 
+
+TY  - JOUR
+AU  - Wu, Xiaohua
+AU  - Pang, Hong
+AU  - Fan, Youping
+AU  - Linghu, Yang
+AU  - Luo, Yu
+TI  - ProbWalk: A random walk approach in weighted graph embedding
+T2  - Procedia Computer Science
+VL  - 183
+SP  - 683-689
+PY  - 2021
+DA  - 2021
+AB  - There are many weighted graphs in the real-world networks, such as social
+      networks, communication networks, citation networks, etc. Along with
+      successful application of deep learning in graph embedding, we study how
+      to embed weight graph, because weights on the edges also play an important
+      role in the graph. We propose a novel algorithm called ProbWalk, which
+      take advantage of edge weights and convert the weights into transition
+      probabilities. Our proposed method specifies the strategy of sampling the
+      surrounding vertices by weights and generate the random walk for graph
+      embedding according to transition probability. We evaluate our methods on
+      tasks including multi-label classification and link prediction.
+      Experimental results show that our method performs better than competed
+      method on several weighted graph datasets.
+SN  - 1877-0509
+DO  - 10.1016/j.procs.2021.02.115
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050921005913
+UR  - http://dx.doi.org/10.1016/j.procs.2021.02.115
+KW  - graph embedding machine learning network representation learning weighted graph embedding
+ER  - 
+
+TY  - JOUR
+AU  - Xiao, Z
+AU  - Deng, Y
+TI  - Graph embedding-based novel protein interaction prediction via
+      higher-order graph convolutional network
+T2  - PLoS One
+VL  - 15
+IS  - 9
+SP  - e0238915
+PY  - 2020
+DA  - 2020
+AB  - Protein-protein interactions (PPIs) are essential for most biological
+      processes. However, current PPI networks present high levels of noise,
+      sparseness and incompleteness, which limits our ability to understand the
+      cell at the system level from the PPI network. Predicting novel (missing)
+      links in noisy PPI networks is an essential computational method for
+      automatically expanding the human interactome and for identifying
+      biologically legitimate but undetected interactions for experimental
+      determination of PPIs, which is both expensive and time-consuming.
+      Recently, graph convolutional networks (GCN) have shown their
+      effectiveness in modeling graph-structured data, which employ a 1-hop
+      neighborhood aggregation procedure and have emerged as a powerful
+      architecture for node or graph representations. In this paper, we propose
+      a novel node (protein) embedding method by combining GCN and PageRank as
+      the latter can significantly improve the GCN's aggregation scheme, which
+      has difficulty in extending and exploring topological information of
+      networks across higher-order neighborhoods of each node. Building on this
+      novel node embedding model, we develop a higher-order GCN variational
+      auto-encoder (HO-VGAE) architecture, which can learn a joint node
+      representation of higher-order local and global PPI network topology for
+      novel protein interaction prediction. It is worth noting that our method
+      is based exclusively on network topology, with no protein attributes or
+      extra biological features used. Extensive computational validations on PPI
+      prediction task demonstrate our method without leveraging any additional
+      biological information shows competitive performance-outperforms all
+      existing graph embedding-based link prediction methods in both accuracy
+      and robustness.
+SN  - 1932-6203
+DO  - 10.1371/journal.pone.0238915
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/32970681
+UR  - http://dx.doi.org/10.1371/journal.pone.0238915
+KW  - Algorithms Computational Biology/*methods Humans Neural Networks, Computer Protein Interaction Mapping/*methods
+N1  - Xiao, Ze Deng, Yue eng Research Support, Non-U.S. Gov't 2020/09/25 PLoS
+      One. 2020 Sep 24;15(9):e0238915. doi: 10.1371/journal.pone.0238915.
+      eCollection 2020.
+ER  - 
+
+TY  - MISC
+AU  - Yang, Cheng
+AU  - Sun, Maosong
+AU  - Liu, Zhiyuan
+AU  - Tu, Cunchao
+TI  - Fast Network Embedding Enhancement via High Order Proximity Approximation
+SP  - 3894–3900
+PY  - 2017
+DA  - 2017
+PB  - AAAI Press
+AB  - Many Network Representation Learning (NRL) methods have been proposed to
+      learn vector representations for vertices in a network recently. In this
+      paper, we summarize most existing NRL methods into a unified two-step
+      framework, including proximity matrix construction and dimension
+      reduction. We focus on the analysis of proximity matrix construction step
+      and conclude that an NRL method can be improved by exploring higher order
+      proximities when building the proximity matrix. We propose Network
+      Embedding Update (NEU) algorithm which implicitly approximates higher
+      order proximities with theoretical approximation bound and can be applied
+      on any NRL methods to enhance their performances. We conduct experiments
+      on multi-label classification and link prediction tasks. Experimental
+      results show that NEU can make a consistent and significant improvement
+      over a number of NRL methods with almost negligible running time on all
+      three publicly available datasets. The source code of this paper can be
+      obtained from https://github.com/thunlp/NEU.
+ER  - 
+
+TY  - JOUR
+AU  - Yang, F
+AU  - Fan, K
+AU  - Song, D
+AU  - Lin, H
+TI  - Graph-based prediction of Protein-protein interactions with attributed
+      signed graph embedding
+T2  - BMC Bioinformatics
+VL  - 21
+IS  - 1
+SP  - 323
+PY  - 2020
+DA  - 2020
+AB  - BACKGROUND: Protein-protein interactions (PPIs) are central to many
+      biological processes. Considering that the experimental methods for
+      identifying PPIs are time-consuming and expensive, it is important to
+      develop automated computational methods to better predict PPIs. Various
+      machine learning methods have been proposed, including a deep learning
+      technique which is sequence-based that has achieved promising results.
+      However, it only focuses on sequence information while ignoring the
+      structural information of PPI networks. Structural information of PPI
+      networks such as their degree, position, and neighboring nodes in a graph
+      has been proved to be informative in PPI prediction. RESULTS: Facing the
+      challenge of representing graph information, we introduce an improved
+      graph representation learning method. Our model can study PPI prediction
+      based on both sequence information and graph structure. Moreover, our
+      study takes advantage of a representation learning model and employs a
+      graph-based deep learning method for PPI prediction, which shows
+      superiority over existing sequence-based methods. Statistically, Our
+      method achieves state-of-the-art accuracy of 99.15% on Human protein
+      reference database (HPRD) dataset and also obtains best results on
+      Database of Interacting Protein (DIP) Human, Drosophila, Escherichia coli
+      (E. coli), and Caenorhabditis elegans (C. elegan) datasets. CONCLUSION:
+      Here, we introduce signed variational graph auto-encoder (S-VGAE), an
+      improved graph representation learning method, to automatically learn to
+      encode graph structure into low-dimensional embeddings. Experimental
+      results demonstrate that our method outperforms other existing
+      sequence-based methods on several datasets. We also prove the robustness
+      of our model for very sparse networks and the generalization for a new
+      dataset that consists of four datasets: HPRD, E.coli, C.elegan, and
+      Drosophila.
+SN  - 1471-2105
+DO  - 10.1186/s12859-020-03646-8
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/32693790
+UR  - http://dx.doi.org/10.1186/s12859-020-03646-8
+KW  - Animals Caenorhabditis elegans/metabolism Computer Simulation Databases, Protein Drosophila/metabolism Escherichia coli/metabolism Humans Machine Learning Neural Networks, Computer Protein Interaction Mapping/*methods Network embedding Protein-protein interaction Representation learning Variational graph auto-encoder
+N1  - Yang, Fang Fan, Kunjie Song, Dandan Lin, Huakang eng England 2020/07/23
+      BMC Bioinformatics. 2020 Jul 21;21(1):323. doi:
+      10.1186/s12859-020-03646-8.
+ER  - 
+
+TY  - JOUR
+AU  - Yang, X
+AU  - Yang, S
+AU  - Li, Q
+AU  - Wuchty, S
+AU  - Zhang, Z
+TI  - Prediction of human-virus protein-protein interactions through a sequence
+      embedding-based machine learning method
+T2  - Comput Struct Biotechnol J
+VL  - 18
+SP  - 153-161
+PY  - 2020
+DA  - 2020
+AB  - The identification of human-virus protein-protein interactions (PPIs) is
+      an essential and challenging research topic, potentially providing a
+      mechanistic understanding of viral infection. Given that the experimental
+      determination of human-virus PPIs is time-consuming and labor-intensive,
+      computational methods are playing an important role in providing testable
+      hypotheses, complementing the determination of large-scale interactome
+      between species. In this work, we applied an unsupervised sequence
+      embedding technique (doc2vec) to represent protein sequences as rich
+      feature vectors of low dimensionality. Training a Random Forest (RF)
+      classifier through a training dataset that covers known PPIs between human
+      and all viruses, we obtained excellent predictive accuracy outperforming
+      various combinations of machine learning algorithms and commonly-used
+      sequence encoding schemes. Rigorous comparison with three existing
+      human-virus PPI prediction methods, our proposed computational framework
+      further provided very competitive and promising performance, suggesting
+      that the doc2vec encoding scheme effectively captures context information
+      of protein sequences, pertaining to corresponding protein-protein
+      interactions. Our approach is freely accessible through our web server as
+      part of our host-pathogen PPI prediction platform
+      (http://zzdlab.com/InterSPPI/). Taken together, we hope the current work
+      not only contributes a useful predictor to accelerate the exploration of
+      human-virus PPIs, but also provides some meaningful insights into
+      human-virus relationships.
+SN  - 2001-0370
+DO  - 10.1016/j.csbj.2019.12.005
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/31969974
+UR  - http://dx.doi.org/10.1016/j.csbj.2019.12.005
+KW  - AC, Auto Covariance ACC, Accuracy AUC, area under the ROC curve AUPRC, area under the PR curve Adaboost, Adaptive Boosting CT, Conjoint Triad Doc2vec Embedding Human-virus interaction LD, Local Descriptor MCC, Matthews correlation coefficient ML, machine learning MLP, Multiple Layer Perceptron MS, mass spectroscopy Machine learning PPIs, protein-protein interactions PR, Precision-Recall Prediction Protein-protein interaction RBF, radial basis function RF, Random Forest ROC, Receiver Operating Characteristic SGD, stochastic gradient descent SVM, Support Vector Machine Y2H, yeast two-hybrid
+N1  - Yang, Xiaodi Yang, Shiping Li, Qinmengge Wuchty, Stefan Zhang, Ziding eng
+      Netherlands 2020/01/24 Comput Struct Biotechnol J. 2019 Dec 26;18:153-161.
+      doi: 10.1016/j.csbj.2019.12.005. eCollection 2020.
+ER  - 
+
+TY  - JOUR
+AU  - Yu, Bin
+AU  - Chen, Cheng
+AU  - Wang, Xiaolin
+AU  - Yu, Zhaomin
+AU  - Ma, Anjun
+AU  - Liu, Bingqiang
+TI  - Prediction of protein–protein interactions based on elastic net and deep
+      forest
+T2  - Expert Systems with Applications
+VL  - 176
+SP  - 114876
+PY  - 2021
+DA  - 2021
+AB  - Prediction of protein–protein interactions (PPIs) helps to grasp molecular
+      roots of disease. However, web-lab experiments to predict PPIs are limited
+      and costly. Using machine-learning-based frameworks can not only
+      automatically identify PPIs, but also provide new ideas for drug research
+      and development from a promising alternative. We present a novel
+      deep-forest-based method for PPIs prediction. Firstly, pseudo amino acid
+      composition (PAAC), autocorrelation descriptor (Auto), multivariate mutual
+      information (MMI), composition-transition-distribution (CTD), amino acid
+      composition position-specific scoring matrix (AAC-PSSM), and dipeptide
+      composition PSSM (DPC-PSSM) are adopted to extract and construct the
+      pattern of PPIs. Secondly, elastic net is utilized to optimize the initial
+      feature vectors and boost the predictive performance. Finally, we ensemble
+      XGBoost, random forest, and extremely randomized trees to construct deep
+      forest model via cascade architecture for PPIs prediction (GcForest-PPI).
+      Benchmark experiments reveal that the proposed approach outperforms other
+      state-of-the-art predictors on Saccharomyces cerevisiae and Helicobacter
+      pylori. We also apply GcForest-PPI on independent test sets, CD9-core
+      network, crossover network, and cancer-specific network. The evaluation
+      shows that GcForest-PPI can boost the prediction accuracy, complement
+      experiments and improve drug discovery.
+SN  - 0957-4174
+DO  - 10.1016/j.eswa.2021.114876
+UR  - https://www.sciencedirect.com/science/article/pii/S0957417421003171
+UR  - http://dx.doi.org/10.1016/j.eswa.2021.114876
+KW  - Protein-protein interactions Multi-information fusion Elastic net Deep forest
+ER  - 
+
+TY  - JOUR
+AU  - Yue, X
+AU  - Wang, Z
+AU  - Huang, J
+AU  - Parthasarathy, S
+AU  - Moosavinasab, S
+AU  - Huang, Y
+AU  - Lin, S M
+AU  - Zhang, W
+AU  - Zhang, P
+AU  - Sun, H
+TI  - Graph embedding on biomedical networks: methods, applications and
+      evaluations
+T2  - Bioinformatics
+VL  - 36
+IS  - 4
+SP  - 1241-1251
+PY  - 2020
+DA  - 2020
+AB  - MOTIVATION: Graph embedding learning that aims to automatically learn
+      low-dimensional node representations, has drawn increasing attention in
+      recent years. To date, most recent graph embedding methods are evaluated
+      on social and information networks and are not comprehensively studied on
+      biomedical networks under systematic experiments and analyses. On the
+      other hand, for a variety of biomedical network analysis tasks,
+      traditional techniques such as matrix factorization (which can be seen as
+      a type of graph embedding methods) have shown promising results, and hence
+      there is a need to systematically evaluate the more recent graph embedding
+      methods (e.g. random walk-based and neural network-based) in terms of
+      their usability and potential to further the state-of-the-art. RESULTS: We
+      select 11 representative graph embedding methods and conduct a systematic
+      comparison on 3 important biomedical link prediction tasks: drug-disease
+      association (DDA) prediction, drug-drug interaction (DDI) prediction,
+      protein-protein interaction (PPI) prediction; and 2 node classification
+      tasks: medical term semantic type classification, protein function
+      prediction. Our experimental results demonstrate that the recent graph
+      embedding methods achieve promising results and deserve more attention in
+      the future biomedical graph analysis. Compared with three state-of-the-art
+      methods for DDAs, DDIs and protein function predictions, the recent graph
+      embedding methods achieve competitive performance without using any
+      biological features and the learned embeddings can be treated as
+      complementary representations for the biological features. By summarizing
+      the experimental results, we provide general guidelines for properly
+      selecting graph embedding methods and setting their hyper-parameters for
+      different biomedical tasks. AVAILABILITY AND IMPLEMENTATION: As part of
+      our contributions in the paper, we develop an easy-to-use Python package
+      with detailed instructions, BioNEV, available at:
+      https://github.com/xiangyue9607/BioNEV, including all source code and
+      datasets, to facilitate studying various graph embedding methods on
+      biomedical tasks. SUPPLEMENTARY INFORMATION: Supplementary data are
+      available at Bioinformatics online.
+SN  - 1367-4811
+DO  - 10.1093/bioinformatics/btz718
+UR  - https://www.ncbi.nlm.nih.gov/pubmed/31584634
+UR  - http://dx.doi.org/10.1093/bioinformatics/btz718
+KW  - Drug Interactions *Neural Networks, Computer Proteins Semantics *Software
+N1  - Yue, Xiang Wang, Zhen Huang, Jingong Parthasarathy, Srinivasan
+      Moosavinasab, Soheil Huang, Yungui Lin, Simon M Zhang, Wen Zhang, Ping
+      Sun, Huan eng Research Support, Non-U.S. Gov't England 2019/10/05
+      Bioinformatics. 2020 Feb 15;36(4):1241-1251. doi:
+      10.1093/bioinformatics/btz718.
+ER  - 
+
+TY  - CPAPER
+AU  - Zell, Andreas
+TI  - Simulation Neuronaler Netze [Simulation of Neural Networks] (in German)
+SP  - 73
+ER  - 
+
+TY  - MISC
+AU  - Zhou, Peixuan
+AU  - Zhang, Yijia
+AU  - Chen, Fei
+AU  - Lu, Mingyu
+AU  - Qu, Wen
+AU  - Lin, Hongfei
+AU  - Liu, Xiaoxia
+TI  - Contrastive Self-Supervised Representation Learning for Protein Complexes
+      Identification
+SP  - 712-717
+PY  - 2022
+DA  - 2022
+DO  - 10.1109/bibm55620.2022.9995094
+UR  - http://dx.doi.org/10.1109/bibm55620.2022.9995094
+ER  - 
