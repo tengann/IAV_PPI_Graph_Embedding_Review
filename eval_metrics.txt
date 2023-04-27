@@ -1,0 +1,27 @@
+Accuracy: Total no. of correct labels (TP and TN) 
+	(TP+TN)/(TP+FP+FN+TN)
+
+Sensitivity (aka Recall): How many +ves against all pos samples (reality)
+	TP/(TP+FN)
+Important when: identifying the positives is crucial.
+[No false negatives (i.e., no 1s were wrongly identified as 0) , sensitivity = 1]
+
+Specificity: How many -ves against all neg samples (reality)
+	TN/(TN+FP), =1 when FP=0
+Important when: you want to cover all true negatives.
+[No false positives (i.e., no 0s were wrongly identified as 1) , Specificity: = 1]
+
+Precision: How many +ves are true against all pos labels (identified by program)
+	TP/(TP+FP), =1 when FP = 0
+Important when: you want to be more confident of your predicted positives.
+
+F1 Score = 2*(Recall * Precision) / (Recall + Precision)
+F1 Score = 2*(Sensitivity  * Precision) / (Sensitivity  + Precision)
+Important when: you have an uneven class distribution.
+
+		True > Predicted
+True Positive	1 > 1
+False Positive	0 > 1
+
+True Negative	0 > 0
+False Negative 	1 > 0
